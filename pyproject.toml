@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "steam_trajectory"
+version = "0.1.0"
+description = "Predicting Steam game engagement trajectories from early signals"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "requests",
+    "beautifulsoup4",
+    "scikit-learn",
+    "xgboost",
+    "shap",
+    "statsmodels",
+]
+
+[tool.setuptools.packages.find]
+include = ["steam_trajectory*"]

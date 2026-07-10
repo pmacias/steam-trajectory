@@ -1,0 +1,25 @@
+# Raw data — regenerable from Kaggle download + scraper, not tracked in git
+data/
+
+# The SQLite database itself — a generated artifact, rebuilt from
+# schema.sql + ingestion scripts. Not something you diff meaningfully
+# in git anyway (it's a binary file).
+*.db
+
+# Cached scraped HTML (see steamcharts_scraper.py's cache_dir)
+data/raw_html/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Roadmap
+steam_trajectory_project_plan.md
+
+# Environment / secrets 
+.env
