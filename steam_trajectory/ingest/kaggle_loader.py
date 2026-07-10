@@ -1,28 +1,61 @@
 """
-KaggleLoader reads the pre-scraped game-metadata dataset you
-download from Kaggle (name, release date, genres, review counts —
-e.g. the fronkongames/artermiloff Steam Games Dataset). It knows
-nothing about SQLite — DatabaseWriter takes what this class
-produces and writes it.
+KaggleLoader reads the fronkongames/steam-games-dataset JSON export
+(games.json) downloaded from Kaggle. Switched from the CSV version
+after validation revealed row-level misalignment in the CSV export
+(an unescaped comma in a free-text field was corrupting column
+alignment for many rows — confirmed by AppID containing a game's
+NAME instead of a number, and 100% of release dates failing to
+parse). JSON has no such ambiguity, since fields are explicitly
+keyed rather than positional.
 
-NOTE: column names below are placeholders. Once you've picked
-a specific Kaggle dataset, you'll need to adjust the column
-names to match its actual CSV headers — Kaggle dataset schemas
-vary and this is the one part of the pipeline you can't fully
-write until you've downloaded the real file and looked at it.
+The raw JSON is a dict keyed by appid string, e.g.:
+    {"906850": {"name": ..., "release_date": {"date": "...", ...},
+                "genres": [...], "developers": [...], ...}, ...}
 
-Historical monthly player counts are NOT sourced from here
-anymore — see steamcharts_scraper.py. This class's job now
-includes defining the cohort itself: select_cohort() below
-turns your research criteria (release window, review threshold)
-into a concrete, reproducible list of appids.
+This class flattens that into a pandas DataFrame with the same
+column names the rest of the pipeline (select_cohort, iter_games,
+iter_genres) already expects, so nothing downstream needs to change.
 """
+import json
+
 import pandas as pd
 
 
 class KaggleLoader:
-    def __init__(self, csv_path: str):
-        self.df = pd.read_csv(csv_path)
+    def __init__(self, json_path: str):
+        with open(json_path, "r", encoding="utf-8") as f:
+            raw = json.load(f)
+
+        records = []
+        for appid, game in raw.items():
+            release_date = game.get("release_date")
+            if isinstance(release_date, dict):
+                release_date = release_date.get("date")
+
+            positive = game.get("positive") or 0
+            negative = game.get("negative") or 0
+            total_reviews = positive + negative
+            review_score_percent = (
+                positive / total_reviews * 100 if total_reviews > 0 else None
+            )
+
+            genres = game.get("genres") or []
+            developers = game.get("developers") or []
+            publishers = game.get("publishers") or []
+
+            records.append({
+                "AppID": int(appid),
+                "Name": game.get("name"),
+                "Release date": release_date,
+                "Developers": ", ".join(developers) if developers else None,
+                "Publishers": ", ".join(publishers) if publishers else None,
+                "Price": game.get("price"),
+                "total_reviews": total_reviews,
+                "review_score_percent": review_score_percent,
+                "Genres": ", ".join(genres) if genres else None,
+            })
+
+        self.df = pd.DataFrame.from_records(records)
 
     def select_cohort(self, release_start: str, release_end: str,
                        min_reviews: int, sample_size: int | None = None,
@@ -40,7 +73,7 @@ class KaggleLoader:
         than that, a random sample is taken (with a fixed random_state
         so it's reproducible run to run).
         """
-        release_dates = pd.to_datetime(self.df["release_date"], errors="coerce")
+        release_dates = pd.to_datetime(self.df["Release date"], errors="coerce")
         mask = (
             (release_dates >= release_start)
             & (release_dates <= release_end)
@@ -53,34 +86,43 @@ class KaggleLoader:
 
         return qualifying.reset_index(drop=True)
 
-    def iter_games(self):
+    def iter_games(self, df: pd.DataFrame | None = None):
         """
         Yields one dict per unique game, matching the fields
-        DatabaseWriter.insert_game expects. Deduplicates in case
-        the source CSV has one row per game-month rather than
-        one row per game.
+        DatabaseWriter.insert_game expects. Pass in the DataFrame
+        returned by select_cohort() to only load your chosen
+        cohort, rather than all ~126K games in the full dataset.
         """
-        game_cols = [
-            "appid", "name", "release_date", "developer",
-            "publisher", "price_usd_launch", "total_reviews",
-            "review_score_percent",
-        ]
-        unique_games = self.df.drop_duplicates(subset="appid")
+        source = df if df is not None else self.df
+        column_map = {
+            "AppID": "appid",
+            "Name": "name",
+            "Release date": "release_date",
+            "Developers": "developer",
+            "Publishers": "publisher",
+            "Price": "price_usd_launch",
+            "total_reviews": "total_reviews",
+            "review_score_percent": "review_score_percent",
+        }
+        unique_games = source.drop_duplicates(subset="AppID")
         for _, row in unique_games.iterrows():
-            yield {col: row.get(col) for col in game_cols}
+            yield {schema_col: row.get(source_col)
+                   for source_col, schema_col in column_map.items()}
 
-    def iter_genres(self):
+    def iter_genres(self, df: pd.DataFrame | None = None):
         """
-        Yields (appid, genre_name) pairs. Assumes the source data
-        has a 'genres' column as a comma-separated string per game —
-        adjust the split logic once you see the real column format.
+        Yields (appid, genre_name) pairs. The 'Genres' column here
+        is a comma-joined string (flattened from the JSON's native
+        list at load time). Pass in select_cohort()'s output to
+        scope this to your cohort.
         """
-        for _, row in self.df.drop_duplicates(subset="appid").iterrows():
-            genres_raw = row.get("genres")
+        source = df if df is not None else self.df
+        for _, row in source.drop_duplicates(subset="AppID").iterrows():
+            genres_raw = row.get("Genres")
             if pd.isna(genres_raw):
                 continue
             for genre_name in str(genres_raw).split(","):
-                yield row["appid"], genre_name.strip()
+                yield row["AppID"], genre_name.strip()
 
     # NOTE: iter_monthly_metrics() was removed — historical monthly
     # player counts are now sourced from SteamChartsScraper instead

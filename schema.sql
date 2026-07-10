@@ -63,7 +63,7 @@ CREATE TABLE game_genres (
 CREATE TABLE monthly_metrics (
     appid           INTEGER NOT NULL,
     month           DATE NOT NULL,      -- store as first-of-month, e.g. '2021-03-01'
-    avg_players     INTEGER,
+    avg_players     REAL,
     peak_players    INTEGER,
     est_owners_low  INTEGER,
     est_owners_high INTEGER,

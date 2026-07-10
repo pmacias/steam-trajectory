@@ -57,7 +57,7 @@ class DatabaseWriter:
         )
 
     def insert_monthly_metric(self, appid: int, month: str,
-                               avg_players: int | None, peak_players: int | None,
+                               avg_players: float | None, peak_players: int | None,
                                est_owners_low: int | None, est_owners_high: int | None,
                                source: str) -> None:
         self.conn.execute(

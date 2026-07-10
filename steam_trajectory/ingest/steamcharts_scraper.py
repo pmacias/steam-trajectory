@@ -101,10 +101,18 @@ class SteamChartsScraper:
             if len(cells) < 5:
                 continue
             month_str, avg_players_str, _gain, _pct_gain, peak_players_str = cells[:5]
+
+            # "Last 30 Days" is a rolling window, not a real calendar
+            # month — it overlaps with whatever the current partial
+            # month already is, so it's excluded to avoid a phantom
+            # duplicate/overlapping data point in the time series.
+            if month_str == "Last 30 Days":
+                continue
+
             records.append({
                 "appid": appid,
                 "month": month_str,
-                "avg_players": _to_int(avg_players_str),
+                "avg_players": _to_float(avg_players_str),
                 "peak_players": _to_int(peak_players_str),
                 "est_owners_low": None,
                 "est_owners_high": None,
@@ -112,9 +120,51 @@ class SteamChartsScraper:
             })
         return records
 
+    def get_monthly_history_batch(self, appids: list[int]) -> tuple[list[dict], list[dict]]:
+        """
+        Runs get_monthly_history across a list of appids, catching
+        failures per-game instead of letting one bad appid crash the
+        entire batch. Some games legitimately fail — no SteamCharts
+        page at all, a delisted title, a transient server error —
+        and that's expected at this scale, not a bug to chase down
+        for every single occurrence.
+
+        Returns (records, failures):
+          - records: flat list of monthly-metric dicts for every
+            game that succeeded, ready to hand to DatabaseWriter
+          - failures: list of {"appid": ..., "error": ...} dicts,
+            so you can see what failed and why, and decide whether
+            to retry, drop, or investigate specific ones afterward
+        """
+        records = []
+        failures = []
+        for i, appid in enumerate(appids):
+            try:
+                records.extend(self.get_monthly_history(appid))
+            except (requests.exceptions.RequestException, ValueError) as e:
+                failures.append({"appid": appid, "error": str(e)})
+
+            if (i + 1) % 20 == 0:
+                print(f"Processed {i + 1}/{len(appids)} games "
+                      f"({len(failures)} failures so far)...")
+
+        return records, failures
+
 
 def _to_int(value: str) -> int | None:
-    """SteamCharts formats numbers with commas (e.g. '12,345') — this
-    strips that and handles blank cells gracefully."""
+    """SteamCharts formats whole numbers (like Peak Players) with
+    commas (e.g. '12,345') — this strips that and handles blank
+    cells gracefully."""
     cleaned = value.replace(",", "").strip()
     return int(cleaned) if cleaned.isdigit() else None
+
+
+def _to_float(value: str) -> float | None:
+    """Avg. Players is reported as a decimal (e.g. '18.96'), unlike
+    Peak Players which is always whole — needs its own parser since
+    a decimal point makes str.isdigit() return False."""
+    cleaned = value.replace(",", "").strip()
+    try:
+        return float(cleaned)
+    except ValueError:
+        return None
