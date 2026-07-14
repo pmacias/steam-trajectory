@@ -29,6 +29,7 @@ Inspect) before your first full run, and adjust the BeautifulSoup
 selectors if the structure has changed.
 """
 import time
+from datetime import datetime
 from pathlib import Path
 
 import requests
@@ -109,9 +110,16 @@ class SteamChartsScraper:
             if month_str == "Last 30 Days":
                 continue
 
+            month_iso = _parse_month_to_iso(month_str)
+            if month_iso is None:
+                # Couldn't parse this row's month label at all —
+                # skip it rather than silently storing a bad value
+                # that would break sorting again.
+                continue
+
             records.append({
                 "appid": appid,
-                "month": month_str,
+                "month": month_iso,
                 "avg_players": _to_float(avg_players_str),
                 "peak_players": _to_int(peak_players_str),
                 "est_owners_low": None,
@@ -149,6 +157,27 @@ class SteamChartsScraper:
                       f"({len(failures)} failures so far)...")
 
         return records, failures
+
+
+def _parse_month_to_iso(month_str: str) -> str | None:
+    """
+    Converts SteamCharts' text month label (e.g. 'April 2022') into
+    an ISO 8601 date string ('2022-04-01', always the first of the
+    month). This matters beyond just tidiness: storing dates as
+    ISO strings means plain alphabetical string sorting (MIN, MAX,
+    ORDER BY) produces correct CHRONOLOGICAL order for free — no
+    date-parsing needed at query time. Storing the raw text label
+    instead ('April 2022', 'March 2021', ...) sorts alphabetically
+    by month NAME instead, which silently produces wrong results
+    (e.g. MIN() returning an April row regardless of actual
+    chronological order, since 'April' sorts first alphabetically
+    among month names).
+    """
+    try:
+        parsed = datetime.strptime(month_str, "%B %Y")
+        return parsed.strftime("%Y-%m-01")
+    except ValueError:
+        return None
 
 
 def _to_int(value: str) -> int | None:

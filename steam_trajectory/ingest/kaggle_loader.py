@@ -86,14 +86,16 @@ class KaggleLoader:
 
         return qualifying.reset_index(drop=True)
 
-    def iter_games(self, df: pd.DataFrame | None = None):
+    @staticmethod
+    def iter_games(df: pd.DataFrame):
         """
         Yields one dict per unique game, matching the fields
-        DatabaseWriter.insert_game expects. Pass in the DataFrame
-        returned by select_cohort() to only load your chosen
-        cohort, rather than all ~126K games in the full dataset.
+        DatabaseWriter.insert_game expects. Takes a DataFrame
+        directly (e.g. loaded from a saved candidates CSV) — this
+        is a staticmethod specifically so notebook 01 can call it
+        without needing to reload the full ~126K-game JSON dataset
+        just to process an already-selected cohort.
         """
-        source = df if df is not None else self.df
         column_map = {
             "AppID": "appid",
             "Name": "name",
@@ -104,20 +106,20 @@ class KaggleLoader:
             "total_reviews": "total_reviews",
             "review_score_percent": "review_score_percent",
         }
-        unique_games = source.drop_duplicates(subset="AppID")
+        unique_games = df.drop_duplicates(subset="AppID")
         for _, row in unique_games.iterrows():
             yield {schema_col: row.get(source_col)
                    for source_col, schema_col in column_map.items()}
 
-    def iter_genres(self, df: pd.DataFrame | None = None):
+    @staticmethod
+    def iter_genres(df: pd.DataFrame):
         """
         Yields (appid, genre_name) pairs. The 'Genres' column here
-        is a comma-joined string (flattened from the JSON's native
-        list at load time). Pass in select_cohort()'s output to
-        scope this to your cohort.
+        is a comma-joined string. Same staticmethod reasoning as
+        iter_games above — works directly on a saved candidates
+        DataFrame, no full-dataset reload required.
         """
-        source = df if df is not None else self.df
-        for _, row in source.drop_duplicates(subset="AppID").iterrows():
+        for _, row in df.drop_duplicates(subset="AppID").iterrows():
             genres_raw = row.get("Genres")
             if pd.isna(genres_raw):
                 continue

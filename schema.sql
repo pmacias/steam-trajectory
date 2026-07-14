@@ -62,7 +62,14 @@ CREATE TABLE game_genres (
 -- ------------------------------------------------------------
 CREATE TABLE monthly_metrics (
     appid           INTEGER NOT NULL,
-    month           DATE NOT NULL,      -- store as first-of-month, e.g. '2021-03-01'
+    month           DATE NOT NULL,      -- ISO 8601 format, e.g. '2022-04-01' (always
+                                         -- first-of-month). Critical: must be ISO, not
+                                         -- a text label like "April 2022" — SQLite has
+                                         -- no native DATE type, so MIN/MAX/ORDER BY on
+                                         -- this column do plain string comparison. ISO
+                                         -- format sorts correctly as strings; a text
+                                         -- month name does not (alphabetically, "April"
+                                         -- sorts before every other month name).
     avg_players     REAL,
     peak_players    INTEGER,
     est_owners_low  INTEGER,

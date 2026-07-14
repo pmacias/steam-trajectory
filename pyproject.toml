@@ -15,6 +15,7 @@ dependencies = [
     "xgboost",
     "shap",
     "statsmodels",
+    "matplotlib",
 ]
 
 [tool.setuptools.packages.find]
