@@ -16,9 +16,29 @@ This class flattens that into a pandas DataFrame with the same
 column names the rest of the pipeline (select_cohort, iter_games,
 iter_genres) already expects, so nothing downstream needs to change.
 """
+import hashlib
 import json
 
 import pandas as pd
+
+
+def _stable_hash_score(appid: int, salt: str = "steam_trajectory_cohort") -> float:
+    """
+    Deterministic pseudo-random score in [0, 1), derived only from
+    an appid's own hash — not its position within any DataFrame.
+    Selecting the top `sample_size` games by this score is stable
+    under upstream additions/removals: a game's inclusion depends
+    only on its own ID, never on how many other rows happen to
+    precede it or how large the overall pool is. This matters in
+    practice — plain pandas .sample(random_state=...) draws based
+    on total row count, so even a SORTED pool can produce an almost
+    entirely different sample if the pool's size changes at all
+    (e.g. a filter change excluding a different number of titles),
+    which was silently invalidating most of the scraper's cache on
+    every rerun.
+    """
+    h = hashlib.sha256(f"{salt}_{appid}".encode()).hexdigest()
+    return int(h, 16) / 16 ** len(h)
 
 
 class KaggleLoader:
@@ -57,9 +77,43 @@ class KaggleLoader:
 
         self.df = pd.DataFrame.from_records(records)
 
+    # Steam sells non-game software (art tools, VR utilities, RPG-making
+    # tools, etc.) through the same storefront/review system, so a
+    # release-date + review-count filter alone can let a few slip in.
+    # Two checks combined, since each covers the other's blind spot:
+    #   1. WHITELIST — game must have at least one gameplay-adjacent
+    #      genre. Robust to non-game categories we haven't seen yet.
+    #   2. BLACKLIST — game must NOT carry any known non-game/software
+    #      category. Needed because some tools carry a genre ALSO used
+    #      by real games (e.g. "Early Access" is a dev-status label, not
+    #      gameplay — confirmed empirically: ScreenPlay and XSOverlay,
+    #      both non-game VR/utility software, are tagged "Early Access"
+    #      alongside "Utilities").
+    #
+    # NOTE: "Casual", "Indie", and "Free To Play" (note exact casing —
+    # the dataset uses "Free To Play", not "Free to Play") were
+    # initially excluded from the whitelist as ambiguous distribution/
+    # status labels, but checking against real data showed this wrongly
+    # dropped ~190 genuine games (e.g. inbento, Puyo Puyo Champions,
+    # Shady Part of Me) whose ONLY genre tag was one of these three.
+    # "Early Access" stays excluded — Easy Pose (a non-game 3D posing
+    # tool, tagged only "Early Access") confirms it's still too
+    # tool-ambiguous to trust on its own.
+    _REAL_GAME_GENRES = {
+        "Action", "Adventure", "RPG", "Racing", "Simulation",
+        "Sports", "Strategy", "Massively Multiplayer",
+        "Violent", "Gore", "Nudity", "Sexual Content",
+        "Casual", "Indie", "Free To Play",
+    }
+    _NON_GAME_CATEGORIES = {
+        "Design & Illustration", "Animation & Modeling", "Education",
+        "Utilities", "Web Publishing", "Photo Editing",
+        "Software Training", "Video Production", "Audio Production",
+        "Accounting", "Game Development",
+    }
+
     def select_cohort(self, release_start: str, release_end: str,
-                       min_reviews: int, sample_size: int | None = None,
-                       random_state: int = 42) -> pd.DataFrame:
+                       min_reviews: int, sample_size: int | None = None) -> pd.DataFrame:
         """
         Filters the full metadata dataset down to games matching
         your research criteria, and returns them as a DataFrame
@@ -69,9 +123,15 @@ class KaggleLoader:
         different arguments and you get a different but still-valid
         cohort, no manual list-editing required.
 
+        Also excludes non-game software (art/utility/dev tools sold
+        through the same Steam storefront) — see _REAL_GAME_GENRES
+        and _NON_GAME_CATEGORIES above.
+
         If sample_size is set and there are more qualifying games
-        than that, a random sample is taken (with a fixed random_state
-        so it's reproducible run to run).
+        than that, a deterministic per-game hash selects the sample
+        (see _stable_hash_score) — stable across reruns even when
+        this filter's other criteria change and the qualifying pool
+        size shifts, unlike pandas' position-based .sample().
         """
         release_dates = pd.to_datetime(self.df["Release date"], errors="coerce")
         mask = (
@@ -81,8 +141,21 @@ class KaggleLoader:
         )
         qualifying = self.df[mask].copy()
 
+        def is_real_game(genres_str):
+            if pd.isna(genres_str):
+                return False
+            game_genres = {g.strip() for g in str(genres_str).split(",")}
+            has_gameplay_genre = len(game_genres & self._REAL_GAME_GENRES) > 0
+            has_non_game_tag = len(game_genres & self._NON_GAME_CATEGORIES) > 0
+            return has_gameplay_genre and not has_non_game_tag
+
+        qualifying = qualifying[qualifying["Genres"].apply(is_real_game)]
+
         if sample_size is not None and len(qualifying) > sample_size:
-            qualifying = qualifying.sample(n=sample_size, random_state=random_state)
+            qualifying = qualifying.copy()
+            qualifying["_sort_key"] = qualifying["AppID"].apply(_stable_hash_score)
+            qualifying = qualifying.sort_values("_sort_key").head(sample_size)
+            qualifying = qualifying.drop(columns="_sort_key")
 
         return qualifying.reset_index(drop=True)
 
