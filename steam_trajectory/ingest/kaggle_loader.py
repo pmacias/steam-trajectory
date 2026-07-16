@@ -73,6 +73,8 @@ class KaggleLoader:
                 "total_reviews": total_reviews,
                 "review_score_percent": review_score_percent,
                 "Genres": ", ".join(genres) if genres else None,
+                "Peak CCU": game.get("peak_ccu"),
+                "Estimated owners": game.get("estimated_owners"),
             })
 
         self.df = pd.DataFrame.from_records(records)
@@ -113,7 +115,8 @@ class KaggleLoader:
     }
 
     def select_cohort(self, release_start: str, release_end: str,
-                       min_reviews: int, sample_size: int | None = None) -> pd.DataFrame:
+                       min_reviews: int, min_peak_ccu: int = 0,
+                       sample_size: int | None = None) -> pd.DataFrame:
         """
         Filters the full metadata dataset down to games matching
         your research criteria, and returns them as a DataFrame
@@ -122,6 +125,17 @@ class KaggleLoader:
         actual, reproducible list of appids — rerun this with
         different arguments and you get a different but still-valid
         cohort, no manual list-editing required.
+
+        min_peak_ccu filters on Steam's own reported peak concurrent
+        players (metadata, available before any scraping). Added
+        after finding that review count alone doesn't guarantee
+        meaningful CONCURRENT engagement — many well-reviewed,
+        commercially successful single-player games (e.g. story-driven
+        titles played once and finished) have review counts in the
+        thousands but peak CCU in the single/low double digits, since
+        review count reflects total unit sales over time, not how many
+        people were ever playing simultaneously. Default of 0 preserves
+        old behavior (no filtering) for backward compatibility.
 
         Also excludes non-game software (art/utility/dev tools sold
         through the same Steam storefront) — see _REAL_GAME_GENRES
@@ -138,6 +152,7 @@ class KaggleLoader:
             (release_dates >= release_start)
             & (release_dates <= release_end)
             & (self.df["total_reviews"] >= min_reviews)
+            & (self.df["Peak CCU"] >= min_peak_ccu)
         )
         qualifying = self.df[mask].copy()
 

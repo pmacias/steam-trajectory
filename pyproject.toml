@@ -16,6 +16,7 @@ dependencies = [
     "shap",
     "statsmodels",
     "matplotlib",
+    "plotly",
 ]
 
 [tool.setuptools.packages.find]

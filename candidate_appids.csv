@@ -1,261 +1,383 @@
-AppID,Name,Release date,Developers,Publishers,Price,total_reviews,review_score_percent,Genres
-1174390,ANNIE:Last Hope,"Apr 6, 2020",Pixel Rice,Pixel Rice,5.99,618,92.07119741100324,"Action, Adventure, Indie, RPG"
-1893620,Circadian Dice,"Jul 11, 2022",Shuffle Up Games,Shuffle Up Games,4.79,578,94.4636678200692,Strategy
-1057090,Ori and the Will of the Wisps,"Mar 10, 2020",Moon Studios GmbH,Xbox Game Studios,7.49,136690,96.56083107762089,Action
-1035560,Struggling,"Aug 27, 2020",Chasing Rats Games,Frontier Foundry,3.74,681,86.78414096916299,"Action, Adventure, Casual, Indie"
-1946550,Toilet Chronicles,"Jul 14, 2022",Madi Abdykarimov,Bomi Games,0.99,1389,90.06479481641469,"Action, Adventure, Indie, Simulation"
-1000010,Crown Trick,"Oct 16, 2020",NEXT Studios,"Team17, NEXT Studios",4.99,5263,85.44556336690101,"Adventure, Indie, RPG, Strategy"
-1879330,WARRIORS OROCHI 3 Ultimate Definitive Edition,"Jul 12, 2022","KOEI TECMO GAMES CO., LTD.","KOEI TECMO GAMES CO., LTD.",27.99,2260,89.11504424778761,"Action, Strategy"
-740130,Tales of Arise,"Sep 9, 2021",Bandai Namco Studios Inc.,Bandai Namco Entertainment,9.99,34782,87.34115347018573,"Action, RPG"
-737520,Flynn: Son of Crimson,"Sep 15, 2021",Studio Thunderhorse,Humble Games,5.99,676,85.20710059171599,"Action, Adventure, Indie"
-1731520,Ark Mobius: Censored Edition,"Oct 14, 2021",YellowDuckWorks,YellowDuckWorks,3.24,995,94.17085427135679,"Action, Adventure, Casual, Indie, RPG"
-1214280,Walking Simulator,"Mar 5, 2020",Pugscape,Pugscape,0.0,9394,87.93911007025761,"Adventure, Free To Play, Indie, Simulation"
-907650,Stronghold: Warlords,"Mar 9, 2021",Firefly Studios,Firefly Studios,3.99,5005,64.95504495504495,"Simulation, Strategy"
-1986840,POPGOES Arcade,"Jul 1, 2022",Kane Carter,Clickteam,3.74,1492,96.58176943699732,RPG
-972660,Spiritfarer®: Farewell Edition,"Aug 18, 2020",Thunder Lotus,Thunder Lotus,2.99,46417,95.20649761940668,"Adventure, Indie, Simulation"
-473950,Manifold Garden,"Oct 20, 2020",William Chyr Studio,William Chyr Studio,4.99,7229,95.46271960160465,"Adventure, Indie"
-1469280,SuchArt: Creative Space,"Jan 21, 2021",Goose Minded,HypeTrain Digital,0.0,7016,97.94754846066135,"Action, Adventure, Casual, Indie, Simulation, Free To Play"
-1440670,Zeepkist,"Jan 28, 2021",Steelpan Interactive,Steelpan Interactive,14.19,1560,97.11538461538461,"Action, Indie, Racing, Sports, Early Access"
-610370,Desperados III,"Jun 16, 2020",Mimimi Games,THQ Nordic,9.99,14540,96.66437414030261,Strategy
-1052070,Burning Daylight,"Apr 19, 2019",Burning Daylight Team,Burning Daylight Team,0.0,2889,88.5773624091381,"Adventure, Free To Play, Indie"
-1607200,Cyanotype Daydream -The Girl Who Dreamed the World-,"Feb 9, 2022",Laplacian,Laplacian,19.99,663,88.83861236802413,"Adventure, Casual"
-774241,Warhammer: Chaosbane,"May 31, 2019",Eko Software,Nacon,2.99,6072,57.723978919631094,"Action, Adventure, RPG"
-1092660,Blair Witch,"Aug 30, 2019",Bloober Team SA,Bloober Team NA,5.99,7247,78.87401683455224,"Adventure, Indie"
-1328890,Succubus Affection,"Oct 22, 2020",Succubus Diary,Kagura Games,14.99,1186,91.48397976391232,"Indie, RPG"
-1836160,PANELKI,"Mar 4, 2022","Alexander Gromyko, GG KEY STUDIOS","Alexander Gromyko, GG KEY STUDIOS",0.79,1789,88.48518725544997,"Adventure, Casual, Indie, Simulation"
-1606340,Conquest of Elysium 5,"Aug 17, 2021",Illwinter Game Design,Illwinter Game Design,14.99,1065,89.67136150234741,"Indie, Strategy"
-1149440,Dragon Marked For Death,"Apr 21, 2020","INTI CREATES CO., LTD.","INTI CREATES CO., LTD.",15.99,1011,77.64589515331355,"Action, RPG"
-1281590,The Dark Pictures Anthology: House of Ashes,"Oct 21, 2021",Supermassive Games,BANDAI NAMCO Entertainment Europe,7.49,8804,88.52794184461608,Adventure
-524910,Hidden Through Time,"Mar 12, 2020",Rogueside,Rogueside,3.19,2833,93.7169078715143,Casual
-1769420,Noble Fates,"Dec 14, 2021","Xobermon, LLC","Xobermon, LLC",14.99,1345,83.27137546468401,"Action, Indie, RPG, Simulation, Strategy, Early Access"
-1293860,The Riftbreaker: Prologue,"Aug 5, 2020",EXOR Studios,"EXOR Studios, Surefire.Games",0.0,4100,95.51219512195121,"Action, Adventure, Indie, RPG, Simulation, Strategy"
-905970,Steel Crew,"Oct 28, 2021",Magnus Ander,Magnus Ander,14.99,568,83.09859154929578,"Action, Indie, Simulation, Early Access"
-1397790,Samurai GUNN 2,"Jul 20, 2021","Beau Blyth, Nelson Boles, Valentin Seiche, Doseone, Adam Robezzoli, Evan Hemsley, YellowAfterlife","SCRAMBLER, Peow Studio",9.59,631,94.13629160063391,"Action, Adventure, Indie, Early Access"
-536280,Disintegration,"Jun 15, 2020",V1 Interactive,Private Division,29.99,706,50.991501416430594,"Action, Adventure"
-942970,Unheard - Voices of Crime,"Mar 28, 2019",NEXT Studios,"NEXT Studios, 505 Games",2.79,31309,96.21833977450574,"Indie, RPG, Simulation"
-749960,Townsmen VR,"Mar 24, 2022",HandyGames,HandyGames,9.99,522,83.9080459770115,"Casual, Indie, Simulation, Strategy"
-520950,DRIFT CE,"Jun 10, 2021",ECC GAMES,505 Games,8.99,2396,72.57929883138564,"Action, Racing, Simulation, Sports"
-1007040,EARTH DEFENSE FORCE 5,"Jul 11, 2019",SANDLOT,D3PUBLISHER,14.99,10763,94.45321936263123,Action
-1135240,Men of War: Assault Squad 2 - Cold War,"Sep 12, 2019",Digitalmindsoft,Fulqrum Publishing,1.99,1210,25.867768595041323,"Action, Simulation, Strategy"
-1681970,神都不良探 Underdog Detective,"Apr 27, 2022",天津芸芸科技有限公司,天津芸芸科技有限公司,7.99,2788,73.02725968436154,"Adventure, Indie, RPG, Simulation, Strategy"
-1262350,SIGNALIS,"Oct 27, 2022",rose-engine,Humble Games,13.99,26157,96.80009175364147,"Action, Adventure, Indie"
-1065100,Golden Treasure: The Great Green,"Jun 17, 2019",Dreaming Door Studios,Dreaming Door Studios,9.99,800,96.375,"Adventure, Indie, RPG, Simulation"
-1172380,STAR WARS Jedi: Fallen Order™,"Nov 14, 2019",Respawn Entertainment,Electronic Arts,3.99,158579,88.58991417526912,"Action, Adventure"
-979060,Bloons Adventure Time TD,"Jan 16, 2019",Ninja Kiwi,Ninja Kiwi,0.0,4302,87.00604370060438,"Action, Strategy"
-950740,China: Mao's legacy,"May 24, 2019",Nostalgames,Nostalgames,2.79,1015,91.92118226600985,"Indie, Simulation, Strategy"
-1816300,HARVESTELLA,"Nov 4, 2022",Square Enix,Square Enix,23.99,2298,77.80678851174935,"Action, RPG, Simulation"
-739650,Drake Hollow,"Oct 1, 2020",The Molasses Flood,CD PROJEKT RED,4.49,1726,77.92584009269989,"Action, Adventure, Indie"
-994220,NEOVERSE,"Feb 18, 2020",Tinogames Inc.,Tinogames Inc.,3.99,3743,84.29067592839968,"Action, Adventure, Casual, Indie, RPG, Strategy"
-1554840,Toree 3D,"Apr 9, 2021",Siactro,Siactro,0.49,1520,95.65789473684211,"Action, Adventure, Indie"
-1859360,Dungeon Village,"Mar 27, 2022","Kairosoft Co.,Ltd","Kairosoft Co.,Ltd",3.23,716,88.68715083798882,"Casual, Indie, RPG, Simulation, Strategy"
-1306630,Lost Ruins,"May 13, 2021",ALTARI GAMES,DANGEN Entertainment,6.99,5428,85.68533529845247,"Action, Adventure, Indie"
-1639790,Northern Journey,"Aug 18, 2021",Slid Studio,Slid Studio,7.19,3098,96.96578437701743,Adventure
-1798780,Dimension Tripper Neptune: TOP NEP,"Jan 20, 2022","Idea Factory, Frontier Works, tiny cactus studio, WSS playground",Idea Factory International,2.99,669,94.76831091180867,Action
-1379130,League of Angels-Heaven's Fury,"Sep 3, 2020","CHENGDU DREAMCALLER TECHNOLOGY CO.,LTD",YOUZU SINGAPORE PTE LTD,0.0,755,58.41059602649007,"Action, Massively Multiplayer, RPG"
-1292910,Accident: The Pilot,"Jul 16, 2020","Duality Games, Glob Games Studio","Duality Games, PlayWay S.A.",0.0,803,68.74221668742216,"Indie, Simulation"
-1158890,White Shadows,"Dec 7, 2021",Monokel,"Thunderful Publishing, Mixtvision",1.19,1029,81.72983479105929,"Action, Adventure, Casual, Indie"
-1623070,Master of Magic,"Dec 13, 2022","MuHa Games, Eerie Forest Studio",Slitherine Ltd.,15.99,1078,70.50092764378478,"Indie, RPG, Strategy"
-1777620,Soul Hackers 2,"Aug 25, 2022",ATLUS,SEGA,11.99,3013,65.84799203451709,RPG
-1380220,Starsand,"Nov 17, 2022",Tunnel Vision Studio,Toplitz Productions,7.99,1157,66.81071737251513,"Action, Adventure, Simulation"
-1264670,The Wind Road,"Jul 9, 2020",甘肃嘉元数字科技有限公司,Phoenix Game,20.99,6804,69.16519694297472,"Action, Adventure, Indie, RPG"
-914800,Coffee Talk,"Jan 29, 2020",Toge Productions,Toge Productions,6.49,11267,94.92322712345789,"Adventure, Casual, Indie"
-1370050,Trek to Yomi,"May 5, 2022","Leonard Menchiari, Flying Wild Hog",Devolver Digital,4.99,2729,71.05166727739099,"Action, Adventure"
-1846170,Iron Lung,"Mar 9, 2022",David Szymanski,David Szymanski,4.39,8170,92.15422276621787,"Adventure, Indie, Simulation"
-1341820,As Dusk Falls,"Jul 19, 2022",INTERIOR/NIGHT,Xbox Game Studios,7.49,3307,90.86785606289689,Adventure
-1373510,BloodRayne: Terminal Cut,"Nov 20, 2020",Terminal Reality,Ziggurat,7.49,1477,89.91198375084632,Action
-1102980,英雄群侠传,"Jun 27, 2019",熊窝dodox,"熊窝dodox, RuiXiao",3.99,537,91.24767225325886,"Adventure, Indie, RPG, Strategy"
-823950,Re:Legend,"Sep 5, 2022",Magnus Games Studio,505 Games,12.49,2002,55.99400599400599,"Action, Adventure, Indie, RPG, Simulation"
-1354830,Cat Cafe Manager,"Apr 14, 2022",Roost Games,indie.io,5.99,2844,87.58790436005626,"Indie, Simulation, Strategy"
-1111370,A Summer's End - Hong Kong 1986,"Apr 23, 2020",Oracle and Bone,Oracle and Bone,10.04,1965,96.23409669211196,"Casual, Indie"
-1575450,Dark Siren,"Dec 16, 2022",eTIRUe,eTIRUe,2.24,537,89.75791433891993,Action
-1668510,The Legend of Heroes: Trails from Zero,"Sep 27, 2022","Nihon Falcom, PH3 GmbH","NIS America, Inc.",27.99,1209,98.09760132340777,RPG
-1163130,Oasis VR,"Oct 26, 2020",Oasis VR,Oasis VR Inc.,0.0,1905,85.61679790026247,"Adventure, Casual, Free To Play, Indie, Massively Multiplayer, RPG, Simulation, Sports"
-622720,Weedcraft Inc,"Apr 11, 2019",Vile Monarch,Devolver Digital,4.99,1632,80.33088235294117,"Indie, Simulation, Strategy"
-1056640,Phantasy Star Online 2 New Genesis,"Aug 5, 2020",SEGA,SEGA,0.0,24044,70.07153551821659,"Action, Massively Multiplayer, RPG, Free To Play"
-855630,Zeliria Sanctuary,"Jan 6, 2019",Salangan Games,Phoenix_co,3.99,710,87.60563380281691,"Adventure, Indie"
-1133760,CHRONO CROSS: THE RADICAL DREAMERS EDITION,"Apr 7, 2022","Square Enix, D4Enterprise Co.,Ltd.",Square Enix,7.99,2175,61.42528735632183,"Adventure, RPG"
-763890,Wildermyth,"Jun 15, 2021",Worldwalker Games LLC,"Worldwalker Games LLC, WhisperGames",16.24,17491,94.83162769424275,"Indie, RPG, Strategy"
-865040,Super Bit Blaster XL,"Mar 16, 2020",Adamvision Studios,Adamvision Studios,0.89,853,93.78663540445487,"Action, Casual, Indie"
-1348390,I am an Air Traffic Controller 4,"Oct 15, 2020",TechnoBrain,TechnoBrain,17.99,516,80.62015503875969,"Simulation, Strategy"
-1414250,CORPSE FACTORY,"May 31, 2022",RIVER CROW STUDIO,RIVER CROW STUDIO,5.99,777,82.62548262548263,"Adventure, Casual, Indie"
-383840,Nimbatus - The Space Drone Constructor,"May 14, 2020",Stray Fawn Studio,"Stray Fawn Publishing, WhisperGames",4.99,2089,79.70320727620872,"Action, Indie, Simulation"
-1477330,Soulestination,"Jan 5, 2021",Zaxiquej,Zaxiquej,1.34,585,91.96581196581197,"Adventure, Indie, RPG, Strategy"
-1933650,The Imperial Gatekeeper,"Sep 2, 2022",Tengsten,Kagura Games,8.44,1997,80.12018027040561,"Adventure, Indie, RPG"
-939400,LoveChoice,"Nov 15, 2021",Akaba Studio,Akaba Studio,1.59,33890,92.84449690174092,"Adventure, Indie, RPG, Simulation"
-508440,Totally Accurate Battle Simulator,"Apr 1, 2021",Landfall,Landfall,6.79,135943,97.81599641026018,"Indie, Simulation, Strategy"
-492150,RPG World - Action RPG Maker,"Jul 17, 2020",RaveyLarge,RaveyLarge,0.0,544,70.03676470588235,"Action, Adventure, Indie, RPG"
-1220010,Home Behind 2,"Feb 16, 2022",TPP Studio,Spiral Up Games,7.99,6964,87.19126938541069,"Adventure, Indie, RPG, Simulation, Strategy"
-314650,SpaceEngine,"Jun 11, 2019",Cosmographic Software,Cosmographic Software,17.99,12617,95.91820559562495,"Casual, Indie, Simulation, Early Access"
-1390010,pyramida,"Aug 14, 2020",Sokpop Collective,Sokpop Collective,1.49,705,84.53900709219859,"Indie, Strategy"
-601220,Zup! F,"Dec 11, 2019",Quiet River,Quiet River,0.59,7687,97.25510602315597,"Casual, Indie"
-1147510,Hentai Asmodeus,"Oct 24, 2019",HEGA Studio,"HappyGames, Tora Creatives",0.79,1212,81.51815181518151,"Adventure, Casual, Simulation"
-280720,Imagine Earth,"May 25, 2021",Serious Bros.,Serious Bros.,8.74,923,81.79848320693391,"Casual, Indie, Simulation, Strategy"
-1421760,What Comes After,"Nov 5, 2020","Pikselnesia, Rolling Glory Jam",Rolling Glory Jam,2.49,956,90.1673640167364,"Adventure, Casual, Indie"
-754050,Bomb Bots Arena,"Jun 1, 2020",Tiny Roar,Tiny Roar,0.0,647,84.08037094281299,"Action, Casual, Free To Play, Indie, Early Access"
-1142830,9-nine-:Episode 3,"Aug 31, 2020",PALETTE,Sekai Project,7.99,803,91.90535491905355,"Action, Casual, Simulation"
-1055540,A Short Hike,"Jul 30, 2019",adamgryu,adamgryu,4.39,19064,99.16072177926982,"Adventure, Indie"
-1896700,Wylde Flowers,"Sep 20, 2022",Studio Drydock Pty Ltd,Studio Drydock Pty Ltd,18.74,2283,96.23302671922909,"Adventure, Simulation"
-470310,TROUBLESHOOTER: Abandoned Children,"Apr 23, 2020",Dandylion,Dandylion,7.49,9197,93.99804284005654,"Casual, Indie, RPG, Strategy"
-522940,GUN GODZ,"Dec 8, 2019",Vlambeer,Vlambeer,0.0,711,87.48241912798875,"Action, Indie"
-539470,Police Stories,"Sep 19, 2019",HypeTrain Digital,HypeTrain Digital,3.99,8701,85.11665325824617,"Action, Indie, Simulation, Strategy"
-1106840,Hydroneer,"May 8, 2020",Foulball Hangover,Foulball Hangover,5.24,25123,86.59395772797835,"Adventure, Casual, Indie, Simulation, Strategy"
-1007350,Mirror Maker,"Jan 17, 2019",KAGAMI WORKs,Paradise Project,0.79,1007,71.69811320754717,"Indie, RPG, Simulation"
-711980,Starship EVO,"Jun 19, 2020",Moonfire Entertainment,Moonfire Entertainment,9.99,1079,85.17145505097312,"Action, Adventure, Indie, Simulation, Early Access"
-12210,Grand Theft Auto IV: The Complete Edition,"Mar 24, 2020","Rockstar North, Rockstar Toronto",Rockstar Games,5.99,175184,82.480706000548,"Action, Adventure"
-1153430,Love wish,"Jan 13, 2020",Double W,Toffee Cafe,0.52,1816,80.39647577092511,"Action, Casual, Indie"
-693800,Loco Parentis / 孤女咒怨,"Sep 19, 2019",Fair Games Studio,"Sad Horse studio, Pleasant Rain Ltd",5.99,514,54.280155642023345,"Action, Adventure, Indie, Massively Multiplayer, RPG"
-1069230,月影魅像-解放之羽-,"Jul 26, 2019",Applique,HIKARI FIELD,5.27,3507,97.5762760193898,"Adventure, Casual"
-999220,Amnesia: Rebirth,"Oct 20, 2020",Frictional Games,Frictional Games,2.99,8686,76.85931383836058,"Adventure, Indie"
-1140170,Arietta of Spirits,"Aug 20, 2021",Third Spirit Games,"Third Spirit Games, Red Art Games",2.99,602,85.88039867109634,"Action, Adventure, Indie"
-1690730,Incremental Cubes,"Nov 3, 2021","Idle System, Inc.","Idle System, Inc.",0.0,958,69.31106471816284,"RPG, Simulation, Free To Play"
-986020,Kunoichi Botan,"Jan 3, 2019",Enokippu,Kagura Games,5.99,533,81.23827392120076,"Indie, RPG"
-951000,Trap Shrine,"Mar 29, 2019",No Strike,Eroge Japan,1.99,1606,94.14694894146949,Casual
-1493760,Youtubers Life 2,"Oct 19, 2021",UPLAY Online,UPLAY Online,12.49,2174,73.18307267709292,"Adventure, Casual, Indie, Simulation, Strategy"
-1347430,Cute Honey,"Jul 22, 2020",Lovely Games,"Lovely Games Hentai Club, Lovely Games",0.99,4820,90.87136929460581,"Casual, Indie, RPG, Simulation"
-1455840,Dorfromantik,"Apr 28, 2022",Toukana Interactive,Toukana Interactive,8.39,27597,96.52860818204877,"Casual, Indie, Simulation, Strategy"
-1453850,Pro Cycling Manager 2021,"Jun 3, 2021",Cyanide Studio,Nacon,39.99,622,79.2604501607717,"Casual, Racing, Simulation, Sports, Strategy"
-1449690,The Walking Dead: The Telltale Definitive Series,"Oct 29, 2020",Skybound Games,Skybound Games,4.99,31041,96.54650301214522,Adventure
-285380,On The Road - The Truck Simulator,"Nov 14, 2019",tox² interactive GmbH,Aerosoft GmbH,14.99,1125,48.44444444444444,"Casual, Simulation, Strategy"
-967460,Red Eclipse,"Dec 19, 2019","Quinton Reeves, Lee Salzman, Sławomir Błauciak",Quinton Reeves,0.0,809,86.27935723114956,"Action, Indie, Free To Play"
-1011610,Radio General,"Apr 9, 2020","Foolish Mortals Games, Michael Long",Foolish Mortals Games,3.99,516,82.75193798449612,"Indie, Simulation, Strategy"
-1593500,God of War,"Jan 14, 2022","Santa Monica Studio, Jetpack Interactive",PlayStation Publishing LLC,19.99,158017,96.00612592316017,"Action, Adventure, RPG"
-1273400,Construction Simulator,"Sep 20, 2022",weltenbauer. Software Entwicklung GmbH,astragon Entertainment,13.99,11160,82.37455197132616,"Casual, Simulation"
-685670,Know by heart,"Feb 10, 2022",Ice-Pick Lodge,Ice-Pick Lodge,4.99,776,89.0463917525773,"Adventure, Casual, Indie"
-1302050,Milky Way Prince – The Vampire Star,"Aug 13, 2020","Eyeguys, Lorenzo Redaelli",Santa Ragione,2.24,518,78.37837837837837,"Adventure, Indie"
-783840,Lakeview Valley,"Oct 22, 2019",Roope Tamminen,Roope Tamminen,1.49,717,82.98465829846583,"Adventure, Indie, RPG"
-1953520,WRC Generations – The FIA WRC Official Game,"Nov 3, 2022",KT Racing,Nacon,5.99,3563,69.37973617737862,"Racing, Simulation"
-1307690,The Darkest Tales,"Oct 13, 2022",Trinity Team,101XP,7.99,843,72.00474495848161,"Action, Adventure"
-1393410,Seek Girl V,"Aug 28, 2020",DSGame,DSGame,0.99,962,72.55717255717255,"Adventure, Casual, Indie, RPG, Strategy"
-1162650,Ken ga Kimi,"Mar 25, 2020",Rejet,Beijing Happy Entertainment Technology,34.99,1052,94.3916349809886,"Adventure, RPG"
-1159640,ANIME - World War II,"Jan 13, 2020",Konnichiwa Games,Konnichiwa Games,0.99,767,83.83311603650587,"Action, Indie"
-819030,STEINS;GATE ELITE,"Feb 19, 2019",MAGES. Inc.,"Spike Chunsoft Co., Ltd.",0.0,1474,91.38398914518318,Adventure
-579840,Bloody Trapland 2: Curiosity,"Feb 1, 2019","2Play, Prasius",2Play,2.49,951,82.64984227129337,"Action, Adventure, Casual, Indie"
-1129190,Our Life: Beginnings & Always,"Nov 16, 2020",GB Patch Games,GB Patch Games,0.0,12452,98.82749759074846,"Casual, Indie, Free To Play"
-355680,Overland,"Sep 19, 2019",Finji,Finji,6.99,520,73.84615384615385,Strategy
-1019450,Table Manners: Physics-Based Dating Game,"Feb 14, 2020",Echo Chamber Games,Curve Games,3.59,502,56.97211155378486,Simulation
-1011390,Field of Glory: Empires,"Jul 11, 2019",Ageod,Slitherine Ltd.,23.99,838,82.4582338902148,Strategy
-961620,Flashback,"Feb 28, 2019",Paul Cuisset,Microids,0.99,557,78.27648114901257,"Action, Adventure"
-1361320,The Room 4: Old Sins,"Feb 11, 2021",Fireproof Games,Fireproof Games,2.24,16277,98.5869631996068,Adventure
-757300,Truberbrook / Trüberbrook,"Mar 12, 2019",btf,Headup,2.99,2146,72.60018639328985,"Adventure, Indie"
-1929870,Nomad Survival,"Oct 8, 2022",The Fox Knocks,The Fox Knocks,3.99,2059,84.74987858183584,"Action, Indie"
-1026840,Ultra Fight Da ! Kyanta 2,"May 8, 2019",羽良麻セルフ,,0.0,1166,96.56946826758147,"Action, Free To Play, Indie, Early Access"
-720350,Mundaun,"Mar 16, 2021",Hidden Fields,Annapurna Interactive,5.99,1272,93.71069182389937,"Action, Adventure, Indie"
-1072920,HomeWork Is Crazy / 作业疯了,"Jun 13, 2019",三脚猫,Gamirror Games,2.39,1228,26.384364820846905,"Casual, Indie"
-1256670,Library Of Ruina,"Aug 10, 2021",ProjectMoon,ProjectMoon,29.99,34509,94.09429424208177,"Indie, RPG, Strategy"
-1628130,Who Pressed Mute on Uncle Marcus?,"Mar 18, 2022","Wales Interactive, Good Gate Media",Wales Interactive,2.99,1022,65.65557729941291,Adventure
-1020800,CAR TUNE: Project,"Feb 20, 2020",Vertices Software,Vertices Software,15.19,580,83.79310344827586,"Indie, Racing, Simulation, Early Access"
-1392820,Milk inside a bag of milk inside a bag of milk,"Aug 26, 2020",Nikita Kryukov,Missing Calm,0.74,29935,96.66610990479371,"Adventure, Indie"
-1462040,FINAL FANTASY VII REMAKE INTERGRADE,"Jun 17, 2022",Square Enix,Square Enix,19.99,37307,88.66700619186749,"Action, Adventure, RPG"
-805590,ARMORED HEAD,"Jul 31, 2020",Egor Rezenov,Egor Rezenov,2.99,1227,98.12550937245314,"Action, Adventure, Indie"
-1944240,Touch Some Grass,"Apr 11, 2022",jpm_games,jpm_games,0.79,939,94.88817891373802,"Casual, Simulation"
-914020,Gibbous -  A Cthulhu Adventure,"Aug 7, 2019",Stuck In Attic,Stuck In Attic,3.99,2177,89.71061093247589,"Adventure, Indie"
-787810,Rogue Heroes: Ruins of Tasos,"Feb 23, 2021",Heliocentric Studios,Team17 Digital,1.99,3454,78.40185292414591,"Action, Adventure, Indie, RPG"
-1671410,Somerville,"Nov 14, 2022",Jumpship,Jumpship,19.99,1477,70.00677048070413,Adventure
-983970,Haven,"Dec 3, 2020",The Game Bakers,The Game Bakers,7.49,5037,90.27198729402423,"Adventure, Indie, RPG"
-1139890,Dictators:No Peace Countryballs,"Jan 1, 2020",RPN Indie Developer,RPN Indie Developer,0.99,6095,94.17555373256768,"Casual, Indie, Simulation, Strategy"
-1732740,Sakura Hime,"Oct 15, 2021",GirlGames,GirlGames,2.79,1374,92.13973799126637,"Casual, Indie, RPG, Simulation"
-1697700,Who's Lila?,"Feb 23, 2022",Garage Heathen,"Garage Heathen, IndieArk",5.39,2731,95.12998901501281,"Adventure, Casual, Indie, RPG"
-1296830,暖雪 Warm Snow,"Jan 18, 2022",BadMudStudio,bilibili,12.59,37007,93.07428324371065,"Action, Adventure, Indie, RPG"
-314430,M.A.R.S.,"Oct 28, 2021",YingPei Games,SubaGames,0.0,1090,63.027522935779814,"Action, Free To Play, Massively Multiplayer"
-422510,DEMON'S TILT,"Dec 13, 2019","WIZNWAR, FLARB LLC",FLARB LLC,9.99,917,94.43838604143949,"Action, Indie"
-1685750,Capcom Fighting Collection,"Jun 23, 2022","CAPCOM Co., Ltd.","CAPCOM Co., Ltd.",14.99,880,90.22727272727272,Action
-750290,Slice of Sea,"Nov 11, 2021",Mateusz Skutnik,Mateusz Skutnik,2.49,519,92.10019267822736,"Adventure, Indie"
-1005870,HYPERFIGHT,"Mar 7, 2019",studio joh,studio joh,0.0,903,89.59025470653378,"Action, Casual, Indie, Free To Play"
-976010,I hate this game,"Mar 7, 2019",Pixel Error,Pixel Error,0.99,2262,92.79398762157382,Indie
-1016920,Unrailed!,"Sep 23, 2020",Indoor Astronaut,Daedalic Entertainment,2.99,18669,93.34190369061011,"Action, Casual, Indie"
-1258040,Super Bernie World,"Mar 9, 2020",Gamedevs for Bernie,Kitsune Games,0.0,3103,79.21366419593942,"Action, Adventure, Free To Play, Indie"
-1921900,The Testing Chamber,"Mar 28, 2022",Randumb Studios,Randumb Studios,3.99,649,97.22650231124807,"RPG, Simulation"
-1916970,Tree Simulator 2023,"Apr 1, 2022",Revmatek,Remvatek,0.79,773,95.86028460543338,"Action, Adventure, Casual, Indie, Simulation"
-1092730,Hello Neighbor Alpha 3,"Oct 17, 2019",Dynamic Pixels,tinyBuild,0.0,1524,76.44356955380577,"Adventure, Indie, Strategy"
-858820,Tribes of Midgard,"Jul 27, 2021",Norsfell,Gearbox Publishing,4.99,22475,76.51612903225806,"Action, Adventure, Indie, RPG"
-1100930,Legioncraft,"Aug 19, 2022","Way York, SilverBlade",INDIECN,13.99,1371,78.92049598832969,"Indie, RPG, Strategy"
-1541250,Super Raft Boat Classic,"Feb 21, 2021","Jason Gertner, Carson Kompon, Yukon Wainczak, Jennifer Kindl",Shattered Journal Games,0.0,931,93.01825993555317,"Action, Indie, Free To Play"
-924980,Trials of Mana,"Apr 24, 2020",Square Enix,Square Enix,19.99,5450,91.77981651376147,RPG
-1019550,Thief Simulator VR,"Nov 5, 2020",GameBoom VR,PlayWay S.A.,1.99,1309,68.75477463712758,"Action, Indie, Simulation"
-854940,Ikenfell,"Oct 8, 2020",Happy Ray Games,Humble Games,5.99,1170,90.85470085470085,"Indie, RPG"
-1475400,"Run Prop, Run! - Puropu Pursuit","Jun 23, 2021",PlayTogether Studio,PlayTogether Studio,0.0,924,77.48917748917748,"Casual, Free To Play, Early Access"
-1252710,Cardaclysm,"Feb 26, 2021",Elder Games,Headup,1.49,544,65.99264705882352,"RPG, Strategy"
-1140610,Death Live,"Sep 12, 2019",橘子班,NVLMaker,0.54,677,86.70605612998523,"Adventure, Casual, Indie"
-1660910,Tanks: The Crusades,"Jun 24, 2021",Aehmttw (Matei Budiu),Aehmttw (Matei Budiu),0.0,704,94.0340909090909,"Action, Casual, Indie, Strategy, Free To Play"
-810500,PowerBeatsVR - VR Fitness,"Nov 18, 2020",Five Mind Creations,Five Mind Creations,11.39,534,83.52059925093633,"Action, Casual, Indie, Sports"
-550840,Fresh Body,"Jul 22, 2021",LOVIGAME,LOVIGAME,2.49,1301,74.78862413528056,"Action, Adventure, Indie, RPG"
-1145660,Drift Of The Hill,"Feb 14, 2020",RewindApp,RewindApp,0.99,857,71.06184364060677,"Indie, Racing, Simulation"
-1122750,异化之恶〇Abnormal Treatment,"Aug 2, 2019",Eternal Dream,"Eternal Dream, 迷糊的安安",0.0,3502,97.48715019988578,"Adventure, Indie, RPG, Free To Play"
-745920,Temtem,"Sep 6, 2022",Crema,Humble Games,8.99,38941,81.73390513854292,"Adventure, Indie, Massively Multiplayer, RPG"
-349270,Mosaic,"Dec 5, 2019",Krillbite Studio,Raw Fury,3.99,502,74.10358565737052,"Adventure, Indie"
-1160220,Paradise Killer,"Sep 4, 2020",Kaizen Game Works,Fellow Traveller,4.99,4049,92.88713262533959,"Adventure, Indie, RPG"
-2070550,A Castle Full of Cats,"Nov 9, 2022",Devcats,Devcats,2.39,4009,99.4262908455974,"Adventure, Casual"
-910490,Killsquad,"Oct 21, 2021",Novarama,Novarama,29.99,3492,70.30355097365405,"Action, Indie, RPG"
-977950,A Dance of Fire and Ice,"Jan 24, 2019",7th Beat Games,"7th Beat Games, indienova",4.79,73471,93.98538198745084,Indie
-1172470,Apex Legends™,"Nov 4, 2020",Respawn,Electronic Arts,0.0,994979,67.14242210137098,"Action, Adventure, Free To Play"
-489940,BATTALION: Legacy,"May 23, 2019",BULKHEAD,BULKHEAD,0.0,16455,59.53205712549378,"Action, Free To Play"
-1418020,Tavern of Gods,"Aug 20, 2021",Element Studio,Element Studio,4.99,792,78.4090909090909,"Action, Adventure, Casual, Indie, RPG, Simulation, Strategy"
-1260130,Banana Hell,"Nov 7, 2020",Petriheart,Petriheart,2.09,841,67.30083234244947,"Casual, Indie, Strategy"
-1901370,Ib,"Apr 11, 2022",kouri,PLAYISM,9.09,4386,99.01960784313727,"Adventure, Indie"
-1000080,Zengeon,"Jun 24, 2019",IndieLeague Studio,2P Games,1.99,1539,66.40675763482781,"Action, Adventure, Indie, RPG"
-1256230,Hyperbolica,"Mar 14, 2022",CodeParade,CodeParade,12.99,1259,82.922954725973,"Adventure, Indie"
-774791,Surgeon Simulator 2,"Sep 2, 2021",Bossa Studios,Infogrames,3.99,2245,49.755011135857465,"Action, Casual, Indie, Simulation"
-1039880,Hellsplit: Arena,"Sep 9, 2019",Deep Type Games,Deep Type Games,17.49,3869,85.241664512794,"Action, RPG"
-1093910,Tales of the Black Forest,"Sep 25, 2019",拾英工作室,SakuraGame,1.19,13947,97.74861977486198,"Adventure, Indie, RPG"
-1440500,東方剛欲異聞　～ 水没した沈愁地獄,"Oct 29, 2021",黄昏フロンティア,"SUNFISH Co., Ltd.",19.99,736,83.0163043478261,"Action, Indie"
-1263370,Seek Girl:Fog Ⅰ,"Aug 28, 2020",DSGame,DSGame,1.99,4686,84.52838241570636,"Action, Adventure, Casual, Indie, RPG, Strategy"
-887450,Tunche,"Nov 2, 2021",LEAP Game Studios,HypeTrain Digital,4.99,736,73.2336956521739,"Action, Adventure, Casual, Indie, RPG"
-1872680,The Knight Witch,"Nov 29, 2022",Super Mega Team,Team17,1.99,773,72.96248382923673,"Action, Adventure, Indie"
-1732330,Ys IX -Monstrum NOX-,"Jan 19, 2022",Nihon Falcom,Clouded Leopard Entertainment,21.99,548,90.51094890510949,"Action, RPG"
-1124300,HUMANKIND™,"Aug 17, 2021",AMPLITUDE Studios,AMPLITUDE Studios,12.49,27245,68.1703064782529,Strategy
-838630,Deadliest Catch: The Game,"Apr 14, 2020",4Fishing,Ultimate Games S.A.,0.99,1455,52.37113402061856,"Adventure, Indie, Simulation"
-41060,Serious Sam Classic: The Second Encounter,"Aug 30, 2019",Croteam,Devolver Digital,1.19,1855,96.01078167115902,"Action, Indie"
-1137300,Sherlock Holmes Chapter One,"Nov 15, 2021",Frogwares,Frogwares,4.49,3658,78.54018589393111,"Action, Adventure"
-892970,Valheim,"Feb 2, 2021",Iron Gate AB,Coffee Stain Publishing,9.99,499828,94.32264699056475,"Action, Adventure, Indie, RPG, Early Access"
-1368860,像素女友,"Aug 19, 2020",HIROKO IMAKI,Pujia8 Studio,0.0,1368,98.46491228070175,"Adventure, Casual, Indie, RPG, Simulation"
-965670,Niplheim's Hunter - Branded Azel,"Jan 6, 2019",Black Train,Kagura Games,8.99,792,90.15151515151516,RPG
-863590,Starcom: Nexus,"Dec 12, 2019","Wx3 Labs, LLC","Wx3 Labs, LLC",4.99,2132,90.29080675422139,"Action, Adventure, Indie, RPG"
-1150640,Yu-Gi-Oh! Legacy of the Duelist : Link Evolution,"Mar 24, 2020",Other Ocean Emeryville,KONAMI,9.99,4361,82.18298555377207,Simulation
-1980530,Kiwi Clicker - Juiced Up,"Jul 29, 2022",Dimitri Kipper,tobspr Games,1.49,1650,95.0909090909091,"Action, Casual, Indie, Simulation, Strategy"
-1299360,Mighty Goose,"Jun 5, 2021","Blastmode, MP2 Games",PLAYISM,5.99,927,86.6235167206041,"Action, Indie"
-1406990,NEKOPARA Vol. 4,"Nov 26, 2020",NEKO WORKs,Sekai Project,4.99,8619,97.36628379162315,"Adventure, Casual, Indie"
-1694420,Card Survival: Tropical Island,"Sep 16, 2022",WinterSpring Games,WinterSpring Games,12.49,2729,95.12641993404178,"Adventure, Indie, Simulation, Strategy"
-545040,Feather,"Apr 5, 2019",Samurai Punk,Samurai Punk,1.99,770,81.42857142857143,"Adventure, Casual, Indie, Simulation"
-715560,Eastshade,"Feb 13, 2019",Eastshade Studios,Eastshade Studios,9.99,5157,89.3542757417103,"Adventure, Indie"
-1765780,ADACA,"Jul 25, 2022",Siris Pendrake,Siris Pendrake,12.49,778,91.6452442159383,"Action, Indie"
-1104660,MO:Astray,"Oct 24, 2019",Archpray Inc.,Rayark International Limited,7.49,4934,91.81191730847182,"Action, Adventure, Indie"
-1230800,Beach Buggy Racing 2: Island Adventure,"Mar 10, 2021",Vector Unit,Vector Unit,4.79,651,91.85867895545314,Racing
-887570,NEBULOUS: Fleet Command,"Feb 11, 2022",Eridanus Industries,Hooded Horse,14.99,3536,82.43778280542986,"Simulation, Strategy, Early Access"
-846870,Yooka-Laylee and the Impossible Lair,"Oct 8, 2019",Playtonic Games,Team17 Digital Ltd,5.99,1269,82.11189913317573,"Adventure, Indie"
-1733890,"Warhammer 40,000: Battle Sister","Mar 8, 2022",Soul Assembly Ltd,Soul Assembly Ltd,9.99,546,68.4981684981685,"Action, Adventure"
-1018850,Smile For Me,"May 31, 2019",LimboLane,"Serenity Forge, LimboLane",7.79,2787,96.55543595263725,"Adventure, Casual, Indie"
-2111630,JR EAST Train Simulator,"Nov 14, 2022","ONGAKUKAN Co.,Ltd.",East Japan Railway Company,22.99,968,72.62396694214877,Simulation
-975270,军团战棋Legion War,"Jul 14, 2021",Bear & Cat Studio,Bear & Cat Studio,9.99,806,89.95037220843672,"Adventure, Indie, Strategy"
-1566410,Touhou Kouryudou ~ Unconnected Marketeers.,"May 3, 2021",上海アリス幻樂団,"Mediascape Co., Ltd.",14.99,1774,97.85794813979707,"Action, Indie"
-1025960,BURIED STARS,"Nov 29, 2021",LINE Games Corporation,LINE Games Corporation,7.99,1827,85.22167487684729,"Adventure, Casual"
-1335200,Action Taimanin,"Oct 5, 2020",LiLith,Infini-Brain inc.,0.0,18644,83.10984767217336,"Action, Adventure, RPG, Free To Play"
-1079160,Touhou Kikeijuu ~ Wily Beast and Weakest Creature.,"Sep 9, 2019",上海アリス幻樂団,"Mediascape Co., Ltd.",14.99,1023,97.36070381231671,"Action, Indie"
-585020,Big Bia,"Jun 10, 2022",Pixel House Games,INDIECN,1.49,1371,71.26185266229031,"Casual, Indie, Strategy"
-551860,Abandon Ship,"Oct 22, 2019",Fireblade Software,Fireblade Software,6.24,1283,73.42166796570537,"Adventure, Indie, RPG, Strategy"
-1080020,Electrician Simulator,"Sep 21, 2022",Take IT Studio!,"Gaming Factory, Ultimate Games S.A.",0.89,2909,79.82124441388794,"Adventure, Casual, Indie, Simulation"
-1475810,Ghostwire: Tokyo,"Mar 24, 2022",Tango Gameworks,Bethesda Softworks,14.99,18662,82.48312078019505,Action
-752590,A Plague Tale: Innocence,"May 14, 2019",Asobo Studio,Focus Entertainment,7.99,63042,93.44405317090194,"Action, Adventure"
-952290,Zueirama,"Aug 6, 2019",Memes Games,Memes Games,3.19,1430,94.61538461538461,"Adventure, Casual, Indie"
-991810,Strategic Mind: The Pacific,"Oct 25, 2019",Starni Games,Starni Games,11.99,606,75.41254125412541,"Indie, Simulation, Strategy"
-938220,TAPSONIC BOLD,"Mar 29, 2019",NEOWIZ,NEOWIZ,5.99,1188,75.25252525252525,"Action, Casual, Racing"
-1159660,Moe Era,"Feb 4, 2020",Comfy Company,Comfy Company,0.0,4832,87.70695364238411,"Casual, Free To Play, Indie"
-1927720,Monument Valley,"Jul 12, 2022",ustwo games,ustwo games,2.79,6309,98.0979553019496,"Adventure, Casual, Indie, Strategy"
-1183260,TrymenT ―献给渴望改变的你― AlphA篇,"Feb 20, 2020",TrymenT,HIKARI FIELD,9.29,659,90.59180576631259,"Adventure, Casual"
-724300,Roof Rage,"Oct 16, 2019",Early Melon,Early Melon,14.99,678,88.49557522123894,"Action, Casual, Indie"
-337320,Paint the Town Red,"Jul 29, 2021",South East Games,South East Games,9.99,29576,95.88179605085205,"Action, Indie"
-1248130,Farming Simulator 22,"Nov 21, 2021",Giants Software,Giants Software,19.99,84512,92.42474441499432,Simulation
-1381440,80's OVERDRIVE,"Nov 19, 2020",Insane Code,Insane Code,9.99,696,73.85057471264368,"Indie, Racing"
-960990,Beyond: Two Souls,"Jun 18, 2020",Quantic Dream,Quantic Dream,1.99,28027,88.32554322617476,"Action, Adventure"
-1020730,Dark Bestiary,"Jul 12, 2020",Qd,Qd,8.99,514,89.29961089494164,"Indie, RPG"
-1519490,The Doors of Trithius,"Aug 15, 2021",Jake Donkersgoed,Jake Donkersgoed,11.99,506,96.6403162055336,"Indie, RPG, Simulation, Strategy, Early Access"
-1227530,Partisans 1941,"Oct 14, 2020",Alter Games,Daedalic Entertainment,4.49,8186,82.1891033471781,"Indie, Strategy"
-995050,Havocado: Ragdoll Fighter,"Apr 25, 2019",Webble Games,Webble Games,19.99,584,83.04794520547945,"Action, Indie, Early Access"
-1018800,DEEEER Simulator: Your Average Everyday Deer Game,"Nov 23, 2021",Gibier Games,PLAYISM,5.99,4218,92.43717401612138,"Action, Casual, Indie, Simulation"
-1049800,BLOCKADE,"May 21, 2019",Novalink,Novalink,0.0,11459,74.7883759490357,"Action, Indie, Massively Multiplayer, Free To Play"
-1663640,The Last Oricru - Final Cut,"Oct 13, 2022",GoldKnights,Prime Matter,1.99,580,67.93103448275862,"Action, Adventure, RPG"
-920210,LEGO® Star Wars™: The Skywalker Saga,"Apr 5, 2022",TT Games,"Warner Bros. Games, Warner Bros. Interactive Entertainment",4.99,45038,90.73449087437275,"Action, Adventure"
-1225590,Sea of Solitude,"Jun 4, 2020",Jo-Mei Games,Electronic Arts,4.99,1994,83.50050150451354,Adventure
-768520,Red Solstice 2: Survivors,"Jun 17, 2021",Ironward,505 Games,10.49,3226,69.62182269063855,"RPG, Strategy"
-1504020,Mosaique Neko Waifus 4,"Feb 12, 2021",Lil Hentai Games,Lil Hentai Games,0.99,4840,94.9586776859504,"Casual, RPG"
-1689910,Dōkyūsei: Bangin' Summer,"Apr 14, 2022","Elf, Shiravune",Shiravune,7.99,1764,93.48072562358276,"Adventure, Simulation"
-1286830,STAR WARS™: The Old Republic™,"Jul 21, 2020",Broadsword,Electronic Arts,0.0,67952,89.56910760536849,"Massively Multiplayer, RPG, Free To Play"
+AppID,Name,Release date,Developers,Publishers,Price,total_reviews,review_score_percent,Genres,Peak CCU,Estimated owners
+1517290,Battlefield™ 2042,"Nov 19, 2021",DICE,Electronic Arts,59.99,297774,46.742160161733395,"Action, Adventure, Casual",2774,10000000 - 20000000
+1088850,Marvel's Guardians of the Galaxy,"Oct 26, 2021",Eidos-Montréal,Eidos Interactive Corp.,8.99,39158,94.12380611880076,"Action, Adventure",219,500000 - 1000000
+1296830,暖雪 Warm Snow,"Jan 18, 2022",BadMudStudio,bilibili,12.59,37007,93.07428324371065,"Action, Adventure, Indie, RPG",516,1000000 - 2000000
+1170950,Mortal Online 2,"Jan 25, 2022",Star Vault AB,Star Vault AB,12.79,12943,60.805068376728734,"Action, Indie, Massively Multiplayer, RPG",440,500000 - 1000000
+1353300,Idle Slayer,"Dec 21, 2020",Pablo Leban,Pablo Leban,0.0,8767,85.4112010950154,"Casual, Indie, Strategy, Free To Play",1300,500000 - 1000000
+326460,ShellShock Live,"May 22, 2020",kChamp Games,kChamp Games,6.99,34893,93.2565270971255,"Action, Casual, Indie, Massively Multiplayer, Strategy",297,1000000 - 2000000
+1384160,GUILTY GEAR -STRIVE-,"Jun 11, 2021",Arc System Works,Arc System Works,19.99,59382,88.20349600889158,Action,2463,1000000 - 2000000
+1850570,DEATH STRANDING DIRECTOR'S CUT,"Mar 30, 2022",KOJIMA PRODUCTIONS,505 Games,15.99,39516,92.8661807875291,"Action, Adventure",1604,1000000 - 2000000
+1097150,Fall Guys,"Aug 3, 2020",Mediatonic,,0.0,473743,81.30019863090325,"Action, Casual, Indie, Massively Multiplayer, Sports",664,20000000 - 50000000
+244850,Space Engineers,"Feb 28, 2019",Keen Software House,Keen Software House,9.99,132347,88.55810860843086,"Action, Indie, Simulation, Strategy",4201,2000000 - 5000000
+887570,NEBULOUS: Fleet Command,"Feb 11, 2022",Eridanus Industries,Hooded Horse,14.99,3536,82.43778280542986,"Simulation, Strategy, Early Access",212,200000 - 500000
+753640,Outer Wilds,"Jun 18, 2020",Mobius Digital,Annapurna Interactive,14.99,84488,95.67394186156614,"Action, Adventure",928,1000000 - 2000000
+1062090,Timberborn,"Sep 15, 2021",Mechanistry,Mechanistry,20.99,31678,95.54264789443778,"Indie, Simulation, Strategy, Early Access",3884,1000000 - 2000000
+1295500,"Warhammer 40,000: Battlesector","Jul 22, 2021",Slitherine Ltd.,Slitherine Ltd.,19.99,5643,88.07371965266702,Strategy,378,100000 - 200000
+1922560,Plants vs. Zombies™ Garden Warfare 2: Deluxe Edition,"May 16, 2022",PopCap,Electronic Arts,2.99,34295,90.28721387957428,"Action, Casual, Strategy",855,1000000 - 2000000
+1599600,PlateUp!,"Aug 4, 2022",It's happening,"Yogscast Games, Gamersky Games",5.99,23401,94.88483398145378,"Action, Casual, Indie, Strategy",832,1000000 - 2000000
+1290000,PowerWash Simulator,"Jul 14, 2022",FuturLab,Square Enix,12.49,52410,96.86510207975577,"Casual, Indie, Simulation",2547,1000000 - 2000000
+899440,GOD EATER 3,"Feb 7, 2019",BANDAI NAMCO Studios Inc.,BANDAI NAMCO Entertainment,5.99,9371,79.50058691708463,Action,249,1000000 - 2000000
+512900,Streets of Rogue,"Jul 12, 2019",Matt Dabrowski,tinyBuild,3.99,21933,96.09264578489035,"Action, Adventure, Indie, RPG",317,1000000 - 2000000
+400750,Call to Arms - Gates of Hell: Ostfront,"Jun 11, 2021","Barbedwire Studios, Digitalmindsoft",Digitalmindsoft,8.74,23811,83.31023476544455,"Action, Simulation, Strategy",2216,1000000 - 2000000
+924970,Back 4 Blood,"Oct 12, 2021",Turtle Rock Studios,Warner Bros. Games,5.99,68441,68.42828129337678,Action,1288,1000000 - 2000000
+1127500,Mini Motorways,"Jul 20, 2021",Dinosaur Polo Club,Dinosaur Polo Club,7.99,21432,96.18794326241135,"Casual, Simulation, Strategy",328,500000 - 1000000
+875210,Kingdom Heroes 8,"Jan 12, 2021","USERJOY Technology Co.,Ltd.","USERJOY Technology Co.,Ltd., Phoenix Game",20.99,14482,54.14997928462919,"Action, RPG, Simulation, Strategy",257,500000 - 1000000
+976730,Halo: The Master Chief Collection,"Dec 3, 2019","343 Industries, Splash Damage, Ruffian Games, Bungie, Saber Interactive",Xbox Game Studios,9.99,242067,92.38557919914734,Action,3362,5000000 - 10000000
+1222680,Need for Speed™ Heat,"Jun 4, 2020",Ghost Games,Electronic Arts,3.49,132855,83.91253622370253,"Action, Adventure, Racing, Sports",1385,2000000 - 5000000
+1468260,Leaf Blower Revolution - Idle Game,"Dec 4, 2020",Humble North,Humble North,0.0,25292,94.34999209236122,"Casual, Indie, Free To Play",1621,1000000 - 2000000
+920210,LEGO® Star Wars™: The Skywalker Saga,"Apr 5, 2022",TT Games,"Warner Bros. Games, Warner Bros. Interactive Entertainment",4.99,45038,90.73449087437275,"Action, Adventure",719,1000000 - 2000000
+1102190,Monster Train,"May 21, 2020",Shiny Shoe,Good Shepherd Entertainment,7.49,21868,96.00786537406256,Strategy,595,500000 - 1000000
+1557740,ROUNDS,"Apr 1, 2021",Landfall,Landfall,2.99,36658,95.18522559877789,"Action, Indie",555,2000000 - 5000000
+779340,Total War: THREE KINGDOMS,"May 23, 2019","CREATIVE ASSEMBLY, Feral Interactive (Mac), Feral Interactive (Linux)","SEGA, Feral Interactive (Mac), Feral Interactive (Linux)",11.99,103745,72.24540941732131,"Action, Strategy",4507,5000000 - 10000000
+1254120,Bless Unleashed,"Aug 6, 2021",VALOFE,VALOFE,0.0,30870,52.66925817946226,"Action, Massively Multiplayer, RPG, Free To Play",291,2000000 - 5000000
+1237950,STAR WARS™ Battlefront™ II,"Jun 11, 2020",DICE,Electronic Arts,3.99,71208,87.54915178069879,"Action, Adventure",9213,2000000 - 5000000
+898920,Axis & Allies 1942 Online,"Nov 9, 2021",Beamdog,Beamdog,4.99,4684,78.20239111870197,Strategy,577,200000 - 500000
+546560,Half-Life: Alyx,"Mar 23, 2020",Valve,Valve,17.99,97229,98.27829145625276,"Action, Adventure",202,2000000 - 5000000
+1267540,WRC 9 FIA World Rally Championship,"Sep 16, 2021",KT Racing,Nacon,2.99,1870,77.2192513368984,"Racing, Simulation, Sports",448,200000 - 500000
+1238840,Battlefield™ 1,"Jun 11, 2020",DICE,Electronic Arts,39.99,192821,86.49213519274352,"Action, Massively Multiplayer",6308,5000000 - 10000000
+1325200,Nioh 2 – The Complete Edition,"Feb 5, 2021","KOEI TECMO GAMES CO., LTD.","KOEI TECMO GAMES CO., LTD.",19.99,45496,87.84288728679445,"Action, RPG",1441,1000000 - 2000000
+597180,Old World,"May 18, 2022",Mohawk Games,Hooded Horse,9.99,4673,82.19559169698266,"RPG, Simulation, Strategy",474,200000 - 500000
+1454400,Cookie Clicker,"Sep 1, 2021","Orteil, DashNet",Playsaurus,2.49,79892,96.65298152505883,"Casual, Indie, Simulation, Strategy",9583,2000000 - 5000000
+611500,Quake Champions,"Aug 18, 2022",id Software,Bethesda Softworks,0.0,38365,73.7573309005604,"Action, Free To Play",203,2000000 - 5000000
+870780,Control Ultimate Edition,"Aug 27, 2020",Remedy Entertainment,Remedy Entertainment,5.99,50448,87.30772280367903,"Action, Adventure",648,1000000 - 2000000
+1369320,Virtual Cottage,"Oct 7, 2020",DU&I,DU&I,0.0,10402,97.79850028840607,"Casual, Indie, Simulation, Free To Play",274,200000 - 500000
+1222700,A Way Out,"Jun 18, 2020",Hazelight Studios,Electronic Arts,2.99,82462,87.69251291503966,"Action, Adventure, Indie",262,2000000 - 5000000
+346010,Besiege,"Feb 18, 2020",Spiderling Studios,Spiderling Studios,2.99,49754,95.45162198014229,"Indie, Simulation",243,1000000 - 2000000
+1282730,Loop Hero,"Mar 4, 2021",Four Quarters,Devolver Digital,2.99,34659,92.94555526703022,"Indie, RPG, Strategy",348,1000000 - 2000000
+1672970,Minecraft Dungeons,"Sep 22, 2021","Mojang Studios, ‪Double Eleven",Xbox Game Studios,19.99,13952,91.20556192660551,"Action, Adventure, RPG",260,1000000 - 2000000
+979690,The Ascent,"Jul 29, 2021",Neon Giant,Curve Games,7.49,22884,73.99056109071842,"Action, Adventure, Indie, RPG",211,1000000 - 2000000
+1127400,Mindustry,"Sep 26, 2019",AnukenDev,AnukenDev,4.49,22266,95.79179017335848,Strategy,658,1000000 - 2000000
+921570,OCTOPATH TRAVELER™,"Jun 7, 2019","Square Enix, ACQUIRE Corp.",Square Enix,23.99,15188,86.05478008954438,RPG,222,500000 - 1000000
+1237970,Titanfall® 2,"Jun 18, 2020",Respawn Entertainment,Electronic Arts,4.49,256188,95.44709354068107,Action,1173,5000000 - 10000000
+1536610,OpenTTD,"Apr 1, 2021",OpenTTD,OpenTTD,0.0,14394,96.18591079616506,"Casual, Indie, Simulation, Free To Play",445,1000000 - 2000000
+885970,Total War: ROME REMASTERED,"Apr 29, 2021","Creative Assembly, Feral Interactive",SEGA,7.49,11962,76.0909546898512,Strategy,764,500000 - 1000000
+1066780,Transport Fever 2,"Dec 11, 2019",Urban Games,Good Shepherd Entertainment,7.99,27627,90.34640026061462,"Casual, Indie, Simulation, Strategy",3465,1000000 - 2000000
+311310,Naval Action,"Jun 13, 2019",Bermuda Computer Club,Bermuda Computer Club,14.99,13538,54.86777958339489,"Indie, Massively Multiplayer, Racing, Simulation",550,200000 - 500000
+933110,Age of Empires III: Definitive Edition,"Oct 15, 2020","World's Edge, Tantalus Media, Forgotten Empires",Xbox Game Studios,0.0,48342,84.69033138885442,"Strategy, Free To Play",3016,1000000 - 2000000
+781030,DK Online,"Mar 5, 2019",Masangsoft,Masangsoft,0.0,708,48.0225988700565,"Action, Adventure, Massively Multiplayer, RPG, Free To Play",204,200000 - 500000
+573100,Battlefleet Gothic: Armada 2,"Jan 24, 2019",Tindalos Interactive,Focus Entertainment,3.99,10080,75.05952380952381,Strategy,251,500000 - 1000000
+505460,Foxhole,"Sep 28, 2022",Siege Camp,Siege Camp,20.09,44068,83.63211400562767,"Action, Indie, Massively Multiplayer, RPG, Strategy",2821,1000000 - 2000000
+919640,Steel Division 2,"Jun 20, 2019",Eugen Systems,Eugen Systems,9.99,9065,79.59183673469387,"Action, Indie, Simulation, Strategy",268,500000 - 1000000
+719040,Wasteland 3,"Aug 27, 2020",inXile Entertainment,inXile Entertainment,11.99,20896,84.68127871362941,"RPG, Strategy",219,500000 - 1000000
+1846380,Need for Speed™ Unbound,"Dec 1, 2022",Criterion Games,Electronic Arts,6.99,49608,60.284631511046605,"Action, Racing",618,1000000 - 2000000
+939960,Far Cry® New Dawn,"Feb 15, 2019","Ubisoft Montreal, Ubisoft Kiev, Ubisoft Shanghai",Ubisoft,7.99,32181,75.70305459743327,"Action, Adventure",215,1000000 - 2000000
+1599340,Lost Ark,"Feb 11, 2022",Smilegate RPG,Amazon Game Studios,0.0,202021,71.0228144598829,"Action, Adventure, Massively Multiplayer, RPG, Free To Play",17355,50000000 - 100000000
+1817190,Marvel’s Spider-Man: Miles Morales,"Nov 18, 2022","Insomniac Games, Nixxes Software",PlayStation Publishing LLC,19.99,43681,93.22588768572147,"Action, Adventure",377,1000000 - 2000000
+1361210,"Warhammer 40,000: Darktide","Nov 30, 2022",Fatshark,Fatshark,9.99,112960,71.05878186968837,"Action, Adventure, RPG",7267,2000000 - 5000000
+1987080,Inside the Backrooms,"Jun 20, 2022",MrFatcat,"MrFatcat, Dropsiick",5.94,45032,81.79960916681472,"Adventure, Indie, Early Access",237,1000000 - 2000000
+1182020,WGT Golf,"Apr 13, 2020","World Golf Tour, LLC","World Golf Tour, LLC",0.0,2911,62.52147028512539,"Simulation, Sports, Free To Play, Early Access",311,500000 - 1000000
+972660,Spiritfarer®: Farewell Edition,"Aug 18, 2020",Thunder Lotus,Thunder Lotus,2.99,46417,95.20649761940668,"Adventure, Indie, Simulation",702,1000000 - 2000000
+544810,KARDS - The WW2 Card Game,"Apr 15, 2020",1939 Games,1939 Games,0.0,38679,73.79456552651308,"Casual, Indie, Strategy, Free To Play",4796,2000000 - 5000000
+1012880,60 Seconds! Reatomized,"Jul 25, 2019",Robot Gentleman,Robot Gentleman,4.99,16924,94.34530843772157,"Adventure, Casual, Indie, Simulation, Strategy",251,1000000 - 2000000
+1608450,Hellslave,"May 26, 2022",Ars Goetia,"Dear Villagers, Gamersky Games",2.99,961,81.47762747138397,"Adventure, Indie, RPG, Strategy",2313,50000 - 100000
+648800,Raft,"Jun 20, 2022",Redbeet Interactive,Axolot Games,13.39,346359,93.31300760193902,"Adventure, Indie, Simulation",4701,10000000 - 20000000
+2141730,Backrooms: Escape Together,"Oct 18, 2022",Triiodide Studios,Triiodide Studios,6.99,22769,87.4654135008125,"Action, Adventure, Casual, Indie, Early Access",569,500000 - 1000000
+502500,ACE COMBAT™ 7: SKIES UNKNOWN,"Jan 31, 2019",Bandai Namco Studios Inc.,Bandai Namco Entertainment,4.79,48192,87.57055112881807,"Action, Simulation",340,2000000 - 5000000
+1333350,Angel Legion,"Aug 14, 2020",Shanghai SilverMoon Network Technology Co.Ltd,Shanghai SilverMoon Network Technology Co.Ltd,0.0,11444,84.90912268437609,"Adventure, RPG, Strategy, Free To Play",450,500000 - 1000000
+1584090,Touhou Mystia's Izakaya,"Oct 1, 2021","二色幽紫蝶, Re零同人社","二色幽紫蝶, Re零同人社",3.23,28249,97.95744982123261,"Casual, Indie, RPG, Simulation",852,500000 - 1000000
+1385380,Across the Obelisk,"Aug 16, 2022",Dreamsite Games,"Paradox Interactive, Paradox Arc",9.99,11866,82.02427102646216,"Adventure, Indie, RPG, Strategy",531,1000000 - 2000000
+1938090,Call of Duty®,"Oct 27, 2022","Treyarch, Raven Software, Beenox, High Moon Studios, Sledgehammer Games, Infinity Ward, Activision Shanghai, Demonware",Activision,0.0,714114,58.757285251374434,Action,67419,50000000 - 100000000
+1397920,Mr.Mine,"Sep 30, 2020",Playsaurus,Playsaurus,0.0,17216,91.92611524163569,"Adventure, Casual, Indie, RPG, Simulation, Strategy, Free To Play",914,500000 - 1000000
+492720,Tropico 6,"Mar 29, 2019","Limbic Entertainment, Realmforge Studios",Kalypso Media,13.99,27191,87.44069728954433,"Simulation, Strategy",575,1000000 - 2000000
+1343400,RuneScape ®,"Oct 14, 2020",Jagex Ltd,Jagex Ltd,0.0,25338,82.6466177283132,"Massively Multiplayer, RPG, Free To Play",2496,2000000 - 5000000
+1904540,Football Manager 2023,"Nov 8, 2022",Sports Interactive,SEGA,0.0,19657,89.76446049753268,"Simulation, Sports",4178,2000000 - 5000000
+412020,Metro Exodus,"Feb 14, 2020",4A Games,Deep Silver,4.49,121315,89.803404360549,Action,702,2000000 - 5000000
+1085660,Destiny 2,"Oct 1, 2019",Bungie,Bungie,0.0,625616,79.58412188946575,"Action, Adventure, Free To Play",24619,20000000 - 50000000
+2014780,X-Plane 12,"Dec 17, 2022",Laminar Research,Laminar Research,35.99,4290,83.86946386946387,Simulation,489,100000 - 200000
+1478220,Puzzle Together Multiplayer Jigsaw Puzzles,"Dec 9, 2020",IronZog,IronZog,0.0,4438,85.64668769716089,"Casual, Free To Play, Indie",206,200000 - 500000
+383120,Empyrion - Galactic Survival,"Aug 5, 2020",Eleon Game Studios,Eleon Game Studios,5.99,33247,78.78906367491804,"Adventure, Indie, Simulation, Strategy",990,1000000 - 2000000
+1240440,Halo Infinite,"Nov 15, 2021",343 Industries,Xbox Game Studios,0.0,177041,69.6635242683898,"Action, Free To Play",2275,10000000 - 20000000
+629760,MORDHAU,"Apr 29, 2019",Triternion,Triternion,2.99,112200,80.3048128342246,"Action, Indie",764,2000000 - 5000000
+1583230,High On Life,"Dec 13, 2022","Squanch Games, Inc.","Squanch Games, Inc.",9.99,19348,88.90841430638827,"Action, Adventure",299,500000 - 1000000
+550650,Black Squad,"Jun 26, 2019","VALOFE, NS STUDIO",VALOFE,0.0,81714,75.92578995031451,"Action, Free To Play",212,10000000 - 20000000
+891040,Pool 2D - Poolians,"Dec 10, 2019",Poolians.com,Poolians.com,0.0,9438,87.11591438864166,"Casual, Indie, Massively Multiplayer, Simulation, Sports, Free To Play",262,500000 - 1000000
+1267910,Melvor Idle,"Nov 18, 2021",Games by Malcs,Jagex Ltd,4.99,14538,90.4250928600908,"Adventure, Casual, Indie, RPG",4551,500000 - 1000000
+780310,The Riftbreaker,"Oct 14, 2021",EXOR Studios,"EXOR Studios, Surefire.Games",11.99,18005,90.22493751735628,"Action, Adventure, Indie, RPG, Simulation, Strategy",231,1000000 - 2000000
+1437880,Heroes of the Three Kingdoms 7,"Nov 12, 2020","USERJOY Technology Co.,Ltd.","USERJOY Technology Co.,Ltd., Phoenix Game",4.19,2841,80.5702217529039,"RPG, Simulation, Strategy",323,500000 - 1000000
+1292630,3on3 FreeStyle: Rebound,"Jul 14, 2020",Joycity,Joycity,0.0,3864,63.19875776397515,"Action, Casual, Indie, RPG, Sports, Free To Play",272,0 - 20000
+1659040,HITMAN World of Assassination,"Jan 20, 2022",IO Interactive A/S,IO Interactive A/S,2.99,45782,86.16705255340527,"Action, Adventure",2637,2000000 - 5000000
+1263850,Football Manager 2021,"Nov 24, 2020",Sports Interactive,SEGA,0.0,23900,93.48117154811716,"Simulation, Sports",1122,2000000 - 5000000
+720620,TaleSpire,"Apr 14, 2021",Bouncyrock Entertainment,Bouncyrock Entertainment,18.74,4681,91.24118778038881,"Indie, RPG, Simulation, Early Access",301,200000 - 500000
+1144400,Senren＊Banka,"Feb 14, 2020",YUZUSOFT,"HIKARI FIELD, NekoNyan Ltd.",19.24,31226,98.85351950297829,"Adventure, Casual",406,500000 - 1000000
+916440,Anno 1800,"Apr 16, 2019",Ubisoft Mainz,Ubisoft,14.99,25091,81.17651747638595,"Simulation, Strategy",2784,1000000 - 2000000
+1151640,Horizon Zero Dawn™ Complete Edition,"Aug 7, 2020",Guerrilla,PlayStation Publishing LLC,0.0,125197,87.90066854637092,"Action, Adventure, RPG",700,1000000 - 2000000
+1817070,Marvel’s Spider-Man Remastered,"Aug 12, 2022","Insomniac Games, Nixxes Software",PlayStation Publishing LLC,23.99,112392,95.90184354758345,"Action, Adventure, Casual",1190,2000000 - 5000000
+1674170,Sprocket,"Aug 26, 2021",Hamish Dunn,Hamish Dunn,19.99,10645,93.74354156881165,"Action, Indie, Simulation, Early Access",237,200000 - 500000
+573090,Stormworks: Build and Rescue,"Sep 17, 2020",Geometa,Geometa,12.49,52942,90.02682180499414,Simulation,1488,1000000 - 2000000
+794260,Outward Definitive Edition,"May 17, 2022",Nine Dots Studio,Prime Matter,4.79,28455,72.87998594271657,RPG,469,1000000 - 2000000
+694280,Zombie Army 4: Dead War,"Feb 18, 2021",Rebellion,Rebellion,4.99,9273,85.99158848269168,Action,431,500000 - 1000000
+666140,My Time at Portia,"Jan 15, 2019",Pathea Games,Focus Entertainment,5.99,43270,91.68245897850706,"Adventure, Casual, Indie, RPG, Simulation",593,1000000 - 2000000
+1332010,Stray,"Jul 19, 2022",BlueTwelve Studio,Annapurna Interactive,17.99,156607,97.25746614136021,"Adventure, Indie",498,5000000 - 10000000
+1124300,HUMANKIND™,"Aug 17, 2021",AMPLITUDE Studios,AMPLITUDE Studios,12.49,27245,68.1703064782529,Strategy,411,1000000 - 2000000
+979110,Space Haven,"May 21, 2020",Bugbyte Ltd.,Bugbyte Ltd.,9.19,9009,86.33588633588633,"Indie, RPG, Simulation, Strategy, Early Access",237,200000 - 500000
+1369670,Motor Town: Behind The Wheel,"Dec 17, 2021",P3 Games,P3 Games,15.99,6277,94.23291381233074,"Adventure, Casual, Indie, Racing, Simulation, Early Access",844,200000 - 500000
+1150690,OMORI,"Dec 25, 2020","OMOCAT, LLC","OMOCAT, LLC",19.99,80237,97.24067450178845,"Adventure, Indie, RPG",506,1000000 - 2000000
+508440,Totally Accurate Battle Simulator,"Apr 1, 2021",Landfall,Landfall,6.79,135943,97.81599641026018,"Indie, Simulation, Strategy",1299,2000000 - 5000000
+1462040,FINAL FANTASY VII REMAKE INTERGRADE,"Jun 17, 2022",Square Enix,Square Enix,19.99,37307,88.66700619186749,"Action, Adventure, RPG",761,1000000 - 2000000
+362890,Black Mesa,"Mar 6, 2020",Crowbar Collective,Crowbar Collective,4.99,127693,95.19864048929854,"Action, Adventure, Indie",907,2000000 - 5000000
+1444480,Turing Complete,"Oct 2, 2021",LevelHead,LevelHead,17.99,4011,96.28521565694341,"Simulation, Early Access",300,200000 - 500000
+760160,Vampire: The Masquerade - Bloodhunt,"Apr 27, 2022",Sharkmob AB,Sharkmob AB,0.0,57084,76.08611870226333,"Action, Free To Play",362,2000000 - 5000000
+805550,Assetto Corsa Competizione,"May 29, 2019",Kunos Simulazioni,505 Games,9.99,38943,92.53267596230388,"Racing, Simulation, Sports",1479,1000000 - 2000000
+1549970,Aliens: Fireteam Elite,"Aug 23, 2021",Cold Iron Studios,"Cold Iron Studios, Focus Entertainment",5.99,24731,79.78650276980308,"Action, RPG",281,1000000 - 2000000
+1824220,Chivalry 2,"Jun 12, 2022",Torn Banner Studios,Tripwire Presents,7.99,46961,80.22188624603395,"Action, Massively Multiplayer",1565,2000000 - 5000000
+997010,Police Simulator: Patrol Officers,"Nov 10, 2022",Aesir Interactive,astragon Entertainment,10.19,19421,77.79208073734617,Simulation,318,1000000 - 2000000
+979920,Supremacy: 1914,"Jul 16, 2019",Bytro Labs GmbH,Bytro Labs GmbH,0.0,3873,74.74825716498839,"Massively Multiplayer, Simulation, Strategy, Free To Play",334,200000 - 500000
+337320,Paint the Town Red,"Jul 29, 2021",South East Games,South East Games,9.99,29576,95.88179605085205,"Action, Indie",296,1000000 - 2000000
+1526490,Fear Surrounds,"Oct 19, 2021",SaltyEgg Studio,Yooreka Studio,0.0,10756,86.15656377835627,"Casual, Indie, RPG, Free To Play",222,200000 - 500000
+588030,Derail Valley,"Jan 25, 2019",Altfuture,Altfuture,39.99,7375,96.27118644067797,"Adventure, Indie, Simulation, Early Access",328,500000 - 1000000
+12210,Grand Theft Auto IV: The Complete Edition,"Mar 24, 2020","Rockstar North, Rockstar Toronto",Rockstar Games,5.99,175184,82.480706000548,"Action, Adventure",2122,5000000 - 10000000
+1235140,Yakuza: Like a Dragon,"Nov 10, 2020",Ryu Ga Gotoku Studio,SEGA,7.99,33262,94.42907822740665,"Action, Adventure, RPG",470,500000 - 1000000
+1100600,Football Manager 2020,"Nov 19, 2019",Sports Interactive,SEGA,0.0,31742,89.28548925713565,"Simulation, Sports",1012,5000000 - 10000000
+1196590,Resident Evil Village,"May 6, 2021","CAPCOM Co., Ltd.","CAPCOM Co., Ltd.",9.99,119350,95.62714704650188,Action,1284,2000000 - 5000000
+699130,World War Z,"Sep 21, 2021",Saber Interactive Inc,Saber Interactive Inc,9.89,26058,83.1107529357587,Action,1663,1000000 - 2000000
+1206560,WorldBox - God Simulator,"Dec 2, 2021",Maxim Karpenko,Maxim Karpenko,19.99,44062,95.0342698924243,"Indie, Simulation, Early Access",1589,1000000 - 2000000
+1180380,Stay Out,"Nov 27, 2019",MOBITECH LLC,MOBITECH LLC,0.0,25900,65.61389961389962,"Action, Indie, Massively Multiplayer, RPG, Free To Play, Early Access",995,500000 - 1000000
+1135690,Unpacking,"Nov 1, 2021",Witch Beam,Humble Games,7.99,35301,93.15033568454152,"Casual, Indie, Simulation",260,500000 - 1000000
+368260,Marvel's Midnight Suns,"Dec 1, 2022",Firaxis Games,2K,8.99,21874,81.69973484502148,"RPG, Strategy",436,2000000 - 5000000
+1030830,Mafia II: Definitive Edition,"May 19, 2020","Hangar 13, D3T",2K,5.99,30264,72.54493787998942,"Action, Adventure",538,2000000 - 5000000
+1404210,Red Dead Online,"Dec 1, 2020",Rockstar Games,Rockstar Games,9.99,66781,83.14640391728186,"Action, Adventure",2207,2000000 - 5000000
+1551360,Forza Horizon 5,"Nov 8, 2021",Playground Games,Xbox Game Studios,29.99,225629,88.61892753147866,"Action, Adventure, Racing, Simulation, Sports",10009,5000000 - 10000000
+313120,Stranded Deep,"Aug 10, 2022",Beam Team Games,Beam Team Publishing,9.99,45828,74.4479357597975,"Adventure, Indie",256,1000000 - 2000000
+1227890,Summer Memories,"Jun 14, 2020",Dojin Otome,Kagura Games,4.99,21799,92.9308683884582,"Adventure, RPG",1585,1000000 - 2000000
+2208920,Assassin's Creed Valhalla,"Dec 6, 2022",Ubisoft Montreal,Ubisoft,5.99,30974,69.58739588041584,"Action, Adventure, RPG",1379,500000 - 1000000
+1222690,Dragon Age™ Inquisition,"Jun 4, 2020",BioWare,Electronic Arts,3.99,19595,75.4274049502424,"Action, Adventure, RPG, Strategy",454,1000000 - 2000000
+1149620,Gas Station Simulator,"Sep 15, 2021",DRAGO entertainment,"DRAGO entertainment, HeartBeat Games, Shochiku",9.99,25043,87.8768518148784,"Casual, Indie, Simulation",958,500000 - 1000000
+360430,Mafia III: Definitive Edition,"May 19, 2020","Hangar 13, Aspyr (Mac)","2K, Aspyr (Mac)",5.99,56508,57.276845756353076,"Action, Adventure",869,1000000 - 2000000
+1473480,A.V.A Global,"Aug 23, 2022",Valiant,Valiant,0.0,7604,47.25144660704892,"Action, Massively Multiplayer, Free To Play",212,1000000 - 2000000
+1328670,Mass Effect™ Legendary Edition,"May 14, 2021",BioWare,Electronic Arts,5.99,56328,91.06483454054822,"Action, RPG",2420,1000000 - 2000000
+1149460,ICARUS,"Dec 3, 2021",RocketWerkz,RocketWerkz,3.49,47072,72.37848402447314,"Action, Adventure, Simulation",1492,500000 - 1000000
+1506830,FIFA 22,"Oct 1, 2021",EA Canada & EA Romania,Electronic Arts,0.0,120871,80.49325313764261,"Simulation, Sports",1319,2000000 - 5000000
+1097840,Gears 5,"Sep 9, 2019",The Coalition,Xbox Game Studios,14.99,23309,70.35908876399674,"Action, Adventure",230,1000000 - 2000000
+739630,Phasmophobia,"Sep 18, 2020",Kinetic Games,Kinetic Games,13.99,768779,95.81570256211474,"Action, Indie, Early Access",9978,10000000 - 20000000
+1106840,Hydroneer,"May 8, 2020",Foulball Hangover,Foulball Hangover,5.24,25123,86.59395772797835,"Adventure, Casual, Indie, Simulation, Strategy",374,1000000 - 2000000
+585420,Trailmakers,"Sep 18, 2019",Flashbulb,Flashbulb,4.99,28047,92.49117552679431,"Action, Adventure, Indie, Racing, Simulation",903,1000000 - 2000000
+1284210,Guild Wars 2,"Aug 23, 2022",ArenaNet®,"ArenaNet®, NCSOFT",0.0,21543,88.89662535394328,"Adventure, Massively Multiplayer, RPG, Free To Play",3277,2000000 - 5000000
+1217060,Gunfire Reborn,"Nov 17, 2021",Duoyi Games,Duoyi Games,13.99,99172,93.42858871455653,"Action, Adventure, Indie, RPG",1428,2000000 - 5000000
+1180660,Tell Me Why,"Aug 27, 2020",DONTNOD Entertainment,Xbox Game Studios,0.0,13883,82.52539076568465,"Adventure, Free To Play",328,500000 - 1000000
+851850,DRAGON BALL Z: KAKAROT,"Jan 16, 2020",CyberConnect2 Co. Ltd.,Bandai Namco Entertainment Inc.,14.99,54680,93.22604242867594,"Action, RPG",264,1000000 - 2000000
+1244460,Jurassic World Evolution 2,"Nov 9, 2021",Frontier Developments,Frontier Developments,14.99,36638,89.5709372782357,"Simulation, Strategy",1413,1000000 - 2000000
+1700870,Clanfolk,"Jul 14, 2022",MinMax Games Ltd.,Hooded Horse,14.99,3108,91.11969111969111,"RPG, Simulation, Strategy, Early Access",386,200000 - 500000
+1166860,Rival Stars Horse Racing: Desktop Edition,"Jun 24, 2020",PikPok,PikPok,19.99,4278,92.8705002337541,"Racing, Simulation, Sports, Strategy",214,100000 - 200000
+418530,Spelunky 2,"Sep 29, 2020","Mossmouth, BlitWorks",Mossmouth,6.99,20485,93.05345374664388,"Action, Indie",313,1000000 - 2000000
+469600,Legion TD 2 - Multiplayer Tower Defense,"Oct 1, 2021",AutoAttack Games,AutoAttack Games,7.49,13550,86.44280442804428,"Casual, Indie, Strategy",687,1000000 - 2000000
+1284410,GWENT: The Witcher Card Game,"May 19, 2020",CD PROJEKT RED,CD PROJEKT RED,0.0,29364,81.8825773055442,"RPG, Strategy, Free To Play",619,1000000 - 2000000
+960170,DJMAX RESPECT V,"Mar 11, 2020",NEOWIZ,NEOWIZ,9.99,29126,89.31538831284763,"Action, Casual, Sports",854,1000000 - 2000000
+1419170,My Singing Monsters,"Mar 24, 2021",Big Blue Bubble,Big Blue Bubble,0.0,41701,93.86585453586245,"Casual, Simulation, Free To Play",740,1000000 - 2000000
+1029690,Sniper Elite 5,"May 25, 2022",Rebellion,Rebellion,4.99,22203,83.11039048777192,"Action, Adventure",1538,2000000 - 5000000
+1128810,RISK: Global Domination,"Feb 19, 2020",SMG Studio,SMG Studio,0.0,38843,79.96292768323765,"Casual, Strategy, Free To Play",2153,2000000 - 5000000
+1105420,Game of Thrones Winter is Coming,"Nov 14, 2019",YOUZU (SINGAPORE) PTE. LTD.,YOUZU (SINGAPORE) PTE. LTD.,0.0,2602,60.83781706379708,"Massively Multiplayer, RPG, Simulation, Strategy, Free To Play",547,200000 - 500000
+1265820,Fights in Tight Spaces,"Dec 2, 2021",Ground Shatter,Reforged Studios,4.99,3305,91.37670196671709,"Action, Strategy",426,100000 - 200000
+1569040,Football Manager 2022,"Nov 9, 2021",Sports Interactive,SEGA,0.0,21460,92.5489282385834,"Simulation, Sports",1742,2000000 - 5000000
+1243830,Overcooked! All You Can Eat,"Mar 23, 2021","Team17 Digital, Ghost Town Games",Team17 Digital,9.99,6141,72.57775606578734,"Casual, Indie, Simulation, Strategy",325,500000 - 1000000
+1426210,It Takes Two,"Mar 25, 2021",Hazelight Studios,Electronic Arts,7.99,218383,95.26474130312342,"Action, Adventure",5018,5000000 - 10000000
+632360,Risk of Rain 2,"Aug 11, 2020",Hopoo Games,Gearbox Publishing,8.24,313577,93.47847578106813,"Action, Indie",7902,5000000 - 10000000
+1718570,ASTLIBRA Revision,"Oct 13, 2022",KEIZO,WhisperGames,18.74,26958,95.60798278804066,"Action, Adventure, RPG",742,1000000 - 2000000
+883710,Resident Evil 2,"Jan 24, 2019","CAPCOM Co., Ltd.","CAPCOM Co., Ltd.",9.99,172857,96.98594792227101,Action,1123,5000000 - 10000000
+489520,Minion Masters,"May 24, 2019",BetaDwarf,BetaDwarf,0.0,64905,89.52777135813882,"Action, Adventure, Indie, RPG, Strategy, Free To Play",310,500000 - 1000000
+1172470,Apex Legends™,"Nov 4, 2020",Respawn,Electronic Arts,0.0,994979,67.14242210137098,"Action, Adventure, Free To Play",124262,100000000 - 200000000
+1483870,Draw & Guess,"Mar 12, 2021",Acureus,Acureus,2.24,33675,84.02078693392725,"Casual, Indie",296,1000000 - 2000000
+1022450,War Selection,"Oct 8, 2019",Glyph Worlds,Glyph Worlds,0.0,21854,85.77377139196486,"Indie, Massively Multiplayer, Strategy, Free To Play, Early Access",507,1000000 - 2000000
+704270,Generation Zero®,"Mar 26, 2019",Systemic Reaction™,Avalanche Studios,6.24,40504,71.7287181512937,"Action, Adventure",234,1000000 - 2000000
+728530,SD GUNDAM G GENERATION CROSS RAYS,"Nov 27, 2019","TOM CREATE, 株式会社トムクリエイト","BANDAI NAMCO Entertainment, 株式会社バンダイナムコエンターテインメント",19.99,7866,83.54945334350369,"RPG, Strategy",227,500000 - 1000000
+1372110,JoJo's Bizarre Adventure: All-Star Battle R,"Sep 1, 2022",CyberConnect2 Co. Ltd.,Bandai Namco Entertainment,9.99,11951,89.0302066772655,Action,357,200000 - 500000
+1313140,Cult of the Lamb,"Aug 11, 2022",Massive Monster,Devolver Digital,12.49,103228,95.62424923470377,"Action, Adventure, Indie, Strategy",1535,2000000 - 5000000
+1207650,Suzerain,"Dec 4, 2020",Torpor Games,Torpor Games,6.99,9266,93.43837686164473,"Adventure, Indie, RPG",258,500000 - 1000000
+1435790,Escape Simulator,"Oct 19, 2021",Pine Studio,Pine Studio,11.99,17308,94.0663277097296,"Adventure, Casual, Indie, Simulation",674,1000000 - 2000000
+1692250,F1® 22,"Jul 1, 2022",Codemasters,Electronic Arts,0.0,25740,68.74125874125873,"Racing, Sports",234,500000 - 1000000
+1259790,Puyo Puyo™ Tetris® 2,"Mar 23, 2021",SEGA,SEGA,15.19,2534,81.72849250197316,"Action, Casual",209,200000 - 500000
+814380,Sekiro™: Shadows Die Twice - GOTY Edition,"Mar 21, 2019","FromSoftware, Inc.","Activision (Excluding Japan and Asia), FromSoftware, Inc. (Japan), 方块游戏 (Asia)",29.99,322234,95.28510337208364,"Action, Adventure",6767,10000000 - 20000000
+1203220,NARAKA: BLADEPOINT,"Aug 11, 2021",24 Entertainment,NetEase Games Global,0.0,324927,69.54177399846735,"Action, Adventure, Massively Multiplayer, Free To Play",66954,10000000 - 20000000
+1449690,The Walking Dead: The Telltale Definitive Series,"Oct 29, 2020",Skybound Games,Skybound Games,4.99,31041,96.54650301214522,Adventure,677,500000 - 1000000
+1295510,DRAGON QUEST® XI S: Echoes of an Elusive Age™ - Definitive Edition,"Dec 4, 2020",Square Enix,Square Enix,19.99,10043,93.27890072687444,"Adventure, RPG",936,200000 - 500000
+601150,Devil May Cry 5,"Mar 7, 2019","CAPCOM Co., Ltd.","CAPCOM Co., Ltd.",7.49,146133,95.98105835095426,Action,2248,5000000 - 10000000
+992070,Idle Wizard,"Jan 24, 2019",TwoWizards,TwoWizards,0.0,1596,86.65413533834587,"Indie, Free To Play",524,200000 - 500000
+1577120,The Quarry,"Jun 9, 2022",Supermassive Games,2K Games,8.99,19265,81.66104334284972,Adventure,256,500000 - 1000000
+1286830,STAR WARS™: The Old Republic™,"Jul 21, 2020",Broadsword,Electronic Arts,0.0,67952,89.56910760536849,"Massively Multiplayer, RPG, Free To Play",6625,5000000 - 10000000
+2058180,Judgment,"Sep 14, 2022",Ryu Ga Gotoku Studio,SEGA,11.99,9743,94.32413014471929,"Action, Adventure",202,1000000 - 2000000
+994910,"Poker Master - Texas Hold'em, Roulette, Blackjack, Baccarat, Omaha, Slots, Teen Patti","Sep 23, 2020",NGIN LIMITED,NGIN LIMITED,0.0,4416,85.43931159420289,"Casual, Massively Multiplayer, Simulation, Sports, Strategy, Free To Play",290,20000 - 50000
+799600,Cosmoteer: Starship Architect & Commander,"Oct 24, 2022",Walternate Realities,Walternate Realities,13.99,11171,95.04968221287263,"Simulation, Strategy, Early Access",482,500000 - 1000000
+1238860,Battlefield 4™,"Jun 11, 2020",DICE,Electronic Arts,39.99,71148,85.24484173834823,Action,1153,1000000 - 2000000
+655500,MX Bikes,"Oct 7, 2019",PiBoSo,PiBoSo,27.99,28116,94.3021766965429,"Racing, Simulation, Sports, Early Access",3605,1000000 - 2000000
+1157390,King Arthur: Knight's Tale,"Apr 26, 2022",NeocoreGames,NeocoreGames,13.49,6833,83.72603541636178,"RPG, Strategy",231,500000 - 1000000
+1611910,"Warhammer 40,000: Chaos Gate - Daemonhunters","May 5, 2022",Complex Games,Frontier Foundry,8.99,13107,77.53109025711453,"RPG, Strategy",373,2000000 - 5000000
+1056640,Phantasy Star Online 2 New Genesis,"Aug 5, 2020",SEGA,SEGA,0.0,24044,70.07153551821659,"Action, Massively Multiplayer, RPG, Free To Play",1400,2000000 - 5000000
+1172380,STAR WARS Jedi: Fallen Order™,"Nov 14, 2019",Respawn Entertainment,Electronic Arts,3.99,158579,88.58991417526912,"Action, Adventure",1354,2000000 - 5000000
+1161580,Hardspace: Shipbreaker,"May 24, 2022",Blackbird Interactive,Blackbird Interactive,10.49,20422,89.49172461071394,Simulation,270,1000000 - 2000000
+1455840,Dorfromantik,"Apr 28, 2022",Toukana Interactive,Toukana Interactive,8.39,27597,96.52860818204877,"Casual, Indie, Simulation, Strategy",365,1000000 - 2000000
+534380,Dying Light 2 Stay Human: Reloaded Edition,"Feb 3, 2022",Techland,Techland,17.99,194830,79.10588718369861,"Action, Adventure, RPG",4223,5000000 - 10000000
+774171,Muse Dash,"Jun 19, 2019",peropero,hasuhasu,0.89,119429,90.00410285609023,"Action, Casual, Indie",672,2000000 - 5000000
+1250410,Microsoft Flight Simulator (2020) 40th Anniversary Edition,"Aug 17, 2020",Asobo Studio,Xbox Game Studios,23.99,65666,78.87491243565925,Simulation,3245,2000000 - 5000000
+594650,Hunt: Showdown 1896,"Aug 27, 2019",Crytek,Crytek,13.49,248220,72.96350012086053,Action,6300,10000000 - 20000000
+625960,Stoneshard,"Feb 6, 2020",Ink Stains Games,HypeTrain Digital,18.74,30062,74.17337502494844,"Adventure, Indie, RPG, Strategy, Early Access",744,1000000 - 2000000
+815370,Green Hell,"Sep 5, 2019",Creepy Jar,Creepy Jar,2.49,80604,85.98084462309563,"Action, Adventure, Indie, Simulation",1656,2000000 - 5000000
+1262460,Zompiercer,"Apr 3, 2020",DDDimanN,DDDimanN,11.99,2961,88.48362039851402,"Action, Adventure, Indie, Early Access",242,100000 - 200000
+2009350,Out of Ore,"Oct 31, 2022",North Modding Company AB,North Modding Company AB,17.49,2607,87.34177215189874,"Adventure, Casual, Simulation, Strategy",493,100000 - 200000
+412220,DDNet,"Aug 17, 2020",DDNet Team,DDNet Team,0.0,37450,89.29238985313752,"Action, Indie, Free To Play",2679,1000000 - 2000000
+751780,Forager,"Apr 18, 2019",HopFrog,Humble Games,6.99,40881,89.89750739952545,"Action, Adventure, Indie, Simulation",235,1000000 - 2000000
+1072420,DRAGON QUEST BUILDERS™ 2,"Dec 10, 2019","Square Enix, KOEI TECMO GAMES CO., LTD.",Square Enix,24.99,7233,92.34066085994746,"Action, Adventure, RPG",425,500000 - 1000000
+686810,Hell Let Loose,"Jul 27, 2021",Expression Games,Team17,12.49,137677,82.40083674106786,"Action, Indie, Massively Multiplayer, Simulation, Strategy",3380,2000000 - 5000000
+1782210,Crab Game,"Oct 29, 2021",Dani,Dani,0.0,152433,91.54054568236538,"Action, Casual, Free To Play, Indie, Racing",2921,5000000 - 10000000
+1091500,Cyberpunk 2077,"Dec 9, 2020",CD PROJEKT RED,CD PROJEKT RED,20.99,844921,84.3949907742854,RPG,22265,20000000 - 50000000
+1218210,Coromon,"Mar 31, 2022",TRAGsoft,indie.io,4.99,6682,85.3486979946124,"Adventure, Indie, RPG, Strategy",250,500000 - 1000000
+1256670,Library Of Ruina,"Aug 10, 2021",ProjectMoon,ProjectMoon,29.99,34509,94.09429424208177,"Indie, RPG, Strategy",1299,1000000 - 2000000
+1721470,Poppy Playtime,"Oct 12, 2021",Mob Entertainment,Mob Entertainment,0.0,98914,85.03649635036497,"Action, Adventure, Indie",588,5000000 - 10000000
+1145360,Hades,"Sep 17, 2020",Supergiant Games,Supergiant Games,7.49,279741,98.24409006902813,"Action, Indie, RPG",2253,5000000 - 10000000
+952060,Resident Evil 3,"Apr 2, 2020","CAPCOM Co., Ltd.","CAPCOM Co., Ltd.",9.99,91235,81.6967172685921,Action,362,2000000 - 5000000
+1071870,Biped,"Mar 26, 2020",NEXT Studios,"NEXT Studios, META Publishing",2.24,8822,86.11425980503287,"Action, Adventure, Casual, Indie, Simulation, Sports, Strategy",300,500000 - 1000000
+898750,Super Robot Wars 30,"Oct 27, 2021",Bandai Namco Forge Digitals Inc.,Bandai Namco Entertainment,59.99,6102,86.61094723041626,"RPG, Simulation, Strategy",283,500000 - 1000000
+843380,Super Animal Royale,"Aug 26, 2021",Pixile,Pixile,0.0,42367,93.62711544362358,"Action, Adventure, Casual, Indie, Massively Multiplayer, Free To Play",364,1000000 - 2000000
+2064650,Tower of Fantasy,"Oct 19, 2022",Hotta Studio,Perfect World Games,0.0,10970,69.23427529626254,"Action, Massively Multiplayer, RPG, Free To Play",354,1000000 - 2000000
+1139980,Travellers Rest,"Jul 28, 2020",Isolated Games,"Isolated Games, IndieArk",13.49,13900,88.46762589928058,"Adventure, Casual, Indie, RPG, Simulation, Early Access",990,500000 - 1000000
+1046930,Dota Underlords,"Jun 20, 2019",Valve,Valve,0.0,90894,82.24195216405923,"Casual, Strategy, Free To Play",1008,5000000 - 10000000
+1097430,Book of Yog Idle RPG,"Jul 29, 2022",元气工作室,元气工作室,0.0,7383,64.10673168088853,"Action, Adventure, Casual, Indie, Massively Multiplayer, RPG, Strategy, Free To Play",647,200000 - 500000
+1336980,NOBUNAGA'S AMBITION: Awakening,"Jul 20, 2022","KOEI TECMO GAMES CO., LTD.","KOEI TECMO GAMES CO., LTD.",41.99,2321,74.10598879793191,Simulation,977,100000 - 200000
+1496790,Gotham Knights,"Oct 21, 2022","Warner Bros. Games Montréal, QLOC",Warner Bros. Games,11.99,22666,67.37404041295332,"Action, Adventure, RPG",204,500000 - 1000000
+1172620,Sea of Thieves: 2025 Edition,"Jun 3, 2020",Rare Ltd,Xbox Game Studios,13.99,355238,89.2567799616032,"Action, Adventure",5437,5000000 - 10000000
+1129190,Our Life: Beginnings & Always,"Nov 16, 2020",GB Patch Games,GB Patch Games,0.0,12452,98.82749759074846,"Casual, Indie, Free To Play",237,500000 - 1000000
+1118310,RetroArch,"May 27, 2022",Libretro,Libretro,0.0,8063,89.59444375542603,Free To Play,619,1000000 - 2000000
+1042550,Digimon Story Cyber Sleuth: Complete Edition,"Oct 17, 2019","h.a.n.d., Inc.",BANDAI NAMCO Entertainment Inc.,9.99,10959,90.63783191897072,RPG,968,200000 - 500000
+261550,Mount & Blade II: Bannerlord,"Oct 25, 2022",TaleWorlds Entertainment,TaleWorlds Entertainment,24.99,264391,87.88498852078929,"Action, Indie, RPG, Simulation, Strategy",14477,10000000 - 20000000
+1029780,Going Medieval,"Jun 1, 2021",Foxy Voxel,Mythwright,18.74,18506,89.87895817572678,"Indie, RPG, Simulation, Strategy, Early Access",713,500000 - 1000000
+1594320,Captain of Industry,"May 31, 2022",MaFi Games,MaFi Games,24.49,7154,94.17109309477215,"Indie, Simulation, Strategy, Early Access",4404,200000 - 500000
+457140,Oxygen Not Included,"Jul 30, 2019",Klei Entertainment,Klei Entertainment,7.49,128390,96.75208349559935,"Indie, Simulation",7545,2000000 - 5000000
+745920,Temtem,"Sep 6, 2022",Crema,Humble Games,8.99,38941,81.73390513854292,"Adventure, Indie, Massively Multiplayer, RPG",200,500000 - 1000000
+1266630,懒人修仙传2,"Jun 21, 2022",托更的修罗,托更的修罗,7.99,858,73.31002331002331,"Casual, Indie, RPG, Simulation, Early Access",265,100000 - 200000
+784080,MechWarrior 5: Mercenaries,"May 26, 2021",Piranha Games Inc.,Piranha Games Inc.,11.99,12756,84.61116337409847,"Action, Simulation",636,500000 - 1000000
+977950,A Dance of Fire and Ice,"Jan 24, 2019",7th Beat Games,"7th Beat Games, indienova",4.79,73471,93.98538198745084,Indie,1870,2000000 - 5000000
+620980,Beat Saber,"May 21, 2019",Beat Games,Beat Games,29.99,74612,95.61598670455155,Indie,423,2000000 - 5000000
+1057090,Ori and the Will of the Wisps,"Mar 10, 2020",Moon Studios GmbH,Xbox Game Studios,7.49,136690,96.56083107762089,Action,697,2000000 - 5000000
+1687950,Persona 5 Royal,"Oct 20, 2022",ATLUS,SEGA,17.99,103144,96.61928953695804,RPG,4994,2000000 - 5000000
+780290,Gloomhaven,"Oct 20, 2021","Flaming Fowl Studios, Saber Interactive",Twin Sails Interactive,12.24,14983,83.20096108923447,"Adventure, RPG, Strategy",430,500000 - 1000000
+1465360,SnowRunner,"May 17, 2021",Saber Interactive,Focus Entertainment,11.99,43881,89.98883343588341,"Adventure, Simulation",3132,1000000 - 2000000
+782330,DOOM Eternal,"Mar 19, 2020",id Software,Bethesda Softworks,9.99,206026,91.15694135691612,Action,2262,5000000 - 10000000
+1190000,Car Mechanic Simulator 2021,"Aug 11, 2021",Red Dot Games,PlayWay S.A.,4.99,29841,95.94182500586442,"Racing, Simulation",1343,1000000 - 2000000
+1665460,eFootball™,"Sep 29, 2021",KONAMI,KONAMI,0.0,92333,47.726165076408215,"Simulation, Sports, Free To Play",13404,10000000 - 20000000
+1466860,Age of Empires IV: Anniversary Edition,"Oct 28, 2021","World's Edge, Relic Entertainment, Forgotten Empires, Climax Studios",Xbox Game Studios,13.99,80870,86.01335476690986,Strategy,7084,2000000 - 5000000
+1637320,Dome Keeper,"Sep 27, 2022",Bippinbits,Raw Fury,7.19,16212,92.2279792746114,"Action, Adventure, Indie, Simulation",402,2000000 - 5000000
+1151340,Fallout 76,"Apr 14, 2020",Bethesda Game Studios,Bethesda Softworks,3.99,122549,72.89655566344891,RPG,8796,2000000 - 5000000
+646570,Slay the Spire,"Jan 23, 2019",Mega Crit,Mega Crit,2.49,182277,97.79072510519704,"Indie, Strategy",15038,5000000 - 10000000
+769560,月圆之夜 (Night of Full Moon),"Jul 25, 2019",Giant Games,Giant Games,0.0,10432,82.89877300613497,"Adventure, Indie, Strategy, Free To Play",487,500000 - 1000000
+996580,Spyro™ Reignited Trilogy,"Sep 3, 2019","Toys for Bob, Iron Galaxy Studios",Activision,13.99,20506,93.95298936896518,"Action, Adventure",351,1000000 - 2000000
+1593350,Increlution,"Oct 13, 2021",Gniller,Gniller,3.99,1142,86.07705779334502,"Indie, Early Access",494,100000 - 200000
+1147690,NGU IDLE,"Oct 1, 2019",4G,4G,0.0,12068,95.82366589327145,"Adventure, Indie, Simulation, Free To Play",3382,500000 - 1000000
+1041320,Lords Mobile: Kingdom Wars,"Jun 2, 2019",IGG SINGAPORE PTE. LTD.,IGG SINGAPORE PTE. LTD.,0.0,5617,66.95745059640377,"Massively Multiplayer, RPG, Strategy, Free To Play",1080,500000 - 1000000
+1096530,Solasta: Crown of the Magister,"May 27, 2021",Tactical Adventures,Tactical Adventures,7.49,20393,87.21129799440985,"Adventure, RPG, Strategy",396,1000000 - 2000000
+1184370,Pathfinder: Wrath of the Righteous - Enhanced Edition,"Sep 2, 2021",Owlcat Games,"META Publishing, Owlcat Games",5.99,38496,83.91261429758936,"Action, Adventure, Indie, RPG, Strategy",1874,2000000 - 5000000
+1682970,Uncrashed : FPV Drone Simulator,"Sep 1, 2021",Louis Rochette,Louis Rochette,12.74,4423,93.94076418720326,"Action, Indie, Racing, Simulation, Sports",507,200000 - 500000
+813780,Age of Empires II: Definitive Edition,"Nov 14, 2019","World's Edge, Forgotten Empires, CaptureAge, Tantalus Media, Wicked Witch",Xbox Game Studios,12.24,162462,94.82894461474068,Strategy,13465,2000000 - 5000000
+1118200,People Playground,"Jul 23, 2019",mestiez,Studio Minus,0.99,281763,98.57433374857592,"Action, Casual, Indie, Simulation",4505,5000000 - 10000000
+1113000,Persona 4 Golden,"Jun 13, 2020",ATLUS,SEGA,9.99,78346,97.01580170015062,RPG,962,1000000 - 2000000
+1281630,Anno 1404 - History Edition,"Jun 25, 2020",Ubisoft Mainz,Ubisoft,4.49,3048,81.49606299212599,"Simulation, Strategy",260,500000 - 1000000
+627690,Idle Champions of the Forgotten Realms,"Mar 25, 2020",Codename Entertainment Inc.,Codename Entertainment Inc.,0.0,14480,77.43093922651934,"Action, Adventure, Indie, Strategy, Free To Play",3034,1000000 - 2000000
+846770,DYSMANTLE,"Nov 16, 2021",10tons Ltd,10tons Ltd,6.99,1746,94.04352806414661,"Action, Adventure, Indie, RPG, Simulation",431,500000 - 1000000
+777130,Blush Blush,"Apr 22, 2020",Sad Panda Studios,Sad Panda Studios,0.0,7246,87.13773116202043,"Casual, Indie, Simulation, Free To Play",319,500000 - 1000000
+1525700,Tavern Master,"Nov 16, 2021",Untitled Studio,Untitled Studio,4.94,11332,92.340275326509,"Simulation, Strategy",216,200000 - 500000
+1213210,Command & Conquer™ Remastered Collection,"Jun 5, 2020","Petroglyph, Lemon Sky Studios",Electronic Arts,1.99,32960,90.688713592233,Strategy,564,1000000 - 2000000
+937310,Infinitode 2 - Infinite Tower Defense,"May 6, 2021",Prineside,Prineside,0.0,3674,91.29014697876974,"Indie, Strategy, Free To Play",265,50000 - 100000
+1259980,RIDE 4,"Oct 8, 2020",Milestone S.r.l.,Milestone S.r.l.,5.99,11729,82.36848836217922,"Racing, Simulation, Sports",209,500000 - 1000000
+445220,Avorion,"Mar 9, 2020",Boxelware,Boxelware,9.99,13614,90.24533568385486,"Action, Indie, Simulation",618,500000 - 1000000
+1794680,Vampire Survivors,"Oct 20, 2022",poncle,poncle,3.74,250334,98.46005736336255,"Action, Casual, Indie, RPG",2966,5000000 - 10000000
+1222670,The Sims™ 4,"Jun 18, 2020",Maxis,Electronic Arts,0.0,170727,87.3113215835808,"Adventure, Casual, Simulation, Free To Play",25276,10000000 - 20000000
+2058190,Lost Judgment,"Sep 14, 2022",Ryu Ga Gotoku Studio,SEGA,17.99,7666,94.41690581789722,"Action, Adventure",233,500000 - 1000000
+597170,Clone Drone in the Danger Zone,"Jul 27, 2021",Doborog Games,Doborog Games,6.99,33067,96.84882208848701,"Action, Indie",212,1000000 - 2000000
+1030840,Mafia: Definitive Edition,"Sep 24, 2020",Hangar 13,2K,5.99,91793,86.81054110879914,"Action, Adventure",686,1000000 - 2000000
+1167630,Teardown,"Apr 21, 2022",Tuxedo Labs,Tuxedo Labs,14.99,109462,95.60669456066945,"Action, Indie, Simulation, Strategy",1984,2000000 - 5000000
+393380,Squad,"Sep 23, 2020",Offworld,Offworld,19.99,210551,83.15704983590673,"Action, Indie, Massively Multiplayer, Strategy",9116,2000000 - 5000000
+736260,Baba Is You,"Mar 13, 2019",Hempuli Oy,Hempuli Oy,10.49,21921,97.81031887231421,Indie,269,1000000 - 2000000
+1286680,Tiny Tina's Wonderlands,"Jun 23, 2022",Gearbox Software,2K,11.99,21986,72.46884380969708,"Action, Adventure, RPG",866,1000000 - 2000000
+860510,Little Nightmares II,"Feb 10, 2021",Tarsier Studios,BANDAI NAMCO Entertainment,29.99,43042,94.08020073416662,Adventure,229,1000000 - 2000000
+976310,Mortal Kombat 11,"Apr 23, 2019","NetherRealm Studios, QLOC, Shiver","Warner Bros. Games, Warner Bros. Interactive Entertainment",4.99,106281,88.10135395790405,Action,1026,2000000 - 5000000
+1129580,Medieval Dynasty,"Sep 23, 2021",Render Cube,Toplitz Productions,17.49,45166,90.75853518133108,"Action, Adventure, Indie, RPG, Simulation",1366,1000000 - 2000000
+1784570,Trainz Railroad Simulator 2022,"May 30, 2022",N3V Games,N3V Games,7.99,766,73.49869451697127,Simulation,244,20000 - 50000
+1222140,Detroit: Become Human,"Jun 18, 2020",Quantic Dream,Quantic Dream,3.99,169199,95.77302466326633,"Action, Adventure",2344,2000000 - 5000000
+1546320,Your Chronicle,"Apr 4, 2021",Samurai Games,Samurai Games,0.0,2048,80.078125,"RPG, Free To Play",3324,200000 - 500000
+1113560,NieR Replicant™ ver.1.22474487139...,"Apr 23, 2021","Square Enix, Toylogic Inc.",Square Enix,23.99,25542,88.2233184558766,"Action, Adventure, RPG",207,500000 - 1000000
+2021910,FPS Chess,"Jul 16, 2022",Meta Fork,DigiPen Institute of Technology,0.0,37132,84.08650220833782,"Action, Casual, Free To Play, Strategy",228,1000000 - 2000000
+678960,CODE VEIN,"Sep 26, 2019",Bandai Namco Studios,Bandai Namco Entertainment,8.99,57318,84.31382811682194,"Action, RPG",443,2000000 - 5000000
+1088790,Rebel Inc: Escalation,"Oct 13, 2021",Ndemic Creations,"Hooded Horse, Ndemic Creations",4.49,6316,82.52058264724509,"Simulation, Strategy",358,200000 - 500000
+975370,Dwarf Fortress,"Dec 6, 2022",Bay 12 Games,Kitfox Games,23.99,28579,94.94383988243116,"Indie, Simulation, Strategy",915,2000000 - 5000000
+1659420,UNCHARTED™: Legacy of Thieves Collection,"Oct 19, 2022","Naughty Dog LLC, Iron Galaxy Studios",PlayStation Publishing LLC,16.49,29689,90.06702819225976,Adventure,467,500000 - 1000000
+977400,Cell to Singularity - Evolution Never Ends,"Nov 3, 2021",Computer Lunch,Computer Lunch,0.0,23690,89.84381595609962,"Casual, Simulation, Free To Play",3036,1000000 - 2000000
+1162750,Songs of Syx,"Sep 21, 2020",Gamatron AB,Gamatron AB,18.74,5822,96.15252490553074,"Casual, Indie, Simulation, Strategy, Early Access",268,200000 - 500000
+774361,Blasphemous,"Sep 10, 2019",The Game Kitchen,Team17,2.49,51484,90.11149094864423,"Action, Adventure, Indie",479,1000000 - 2000000
+1629520,A Little to the Left,"Nov 8, 2022",Max Inferno,Secret Mode,5.99,13536,92.05821513002364,"Casual, Indie",422,200000 - 500000
+1174180,Red Dead Redemption 2,"Dec 5, 2019",Rockstar Games,Rockstar Games,14.99,733542,92.24652439805764,"Action, Adventure",29885,10000000 - 20000000
+427520,Factorio,"Aug 14, 2020",Wube Software LTD.,Wube Software LTD.,35.0,215209,97.00802475732893,"Casual, Indie, Simulation, Strategy",16426,5000000 - 10000000
+1017900,Age of Empires: Definitive Edition,"Aug 19, 2019","World's Edge, Forgotten Empires, Tantalus",Xbox Game Studios,4.99,13940,83.93113342898135,Strategy,559,500000 - 1000000
+1324780,Easy Red 2,"Jan 6, 2022",Marco Amadei,Corvostudio di Amadei Marco,7.19,8394,90.55277579223254,"Action, Indie, Simulation, Strategy",346,200000 - 500000
+2069310,RealFlight Evolution,"Oct 27, 2022","Horizon Hobby, LLC","Horizon Hobby, LLC",69.99,1033,87.31848983543078,"Indie, Racing, Simulation",514,20000 - 50000
+1162520,Richman10,"Oct 24, 2019","Softstar Technology (Beijing) Co.,Ltd",SOFTSTAR ENTERTAINMENT,8.39,14322,52.02485686356654,"Casual, Strategy",255,500000 - 1000000
+1094780,Fisher Online,"Oct 27, 2019",R-Age LLC,R-Age LLC,13.99,4093,84.36354752015637,Simulation,349,200000 - 500000
+962130,Grounded,"Sep 27, 2022",Obsidian Entertainment,Xbox Game Studios,19.99,84517,89.30984299016765,"Action, Adventure",2394,2000000 - 5000000
+397540,Borderlands 3,"Mar 13, 2020",Gearbox Software,2K,5.99,149065,84.02240633280783,"Action, RPG",3164,2000000 - 5000000
+858810,Dawn of Man,"Mar 1, 2019",Madruga Works,Madruga Works,12.49,17097,86.82809849681232,"Indie, Simulation, Strategy",323,1000000 - 2000000
+848480,Creeper World 4,"Dec 3, 2020",Knuckle Cracker,Knuckle Cracker,9.99,4365,95.1890034364261,"Action, Casual, Indie, Simulation, Strategy",203,200000 - 500000
+1446780,MONSTER HUNTER RISE,"Jan 12, 2022","CAPCOM Co., Ltd.","CAPCOM Co., Ltd.",7.99,112672,82.15350752627094,Action,3658,5000000 - 10000000
+763890,Wildermyth,"Jun 15, 2021",Worldwalker Games LLC,"Worldwalker Games LLC, WhisperGames",16.24,17491,94.83162769424275,"Indie, RPG, Strategy",270,1000000 - 2000000
+1262580,Need for Speed™ Payback,"Jun 18, 2020",Ghost Games,Electronic Arts,4.49,29054,85.59234528808426,"Action, Adventure, Racing, Sports, Strategy",204,1000000 - 2000000
+1259420,Days Gone,"May 17, 2021",Bend Studio,PlayStation Publishing LLC,15.99,103143,92.78089642535122,"Action, Adventure",1600,2000000 - 5000000
+1258080,Shop Titans,"May 5, 2020","Kabam Games, Inc.","Kabam Games, Inc.",0.0,16928,78.26677693761815,"Adventure, Casual, RPG, Simulation, Free To Play",3279,1000000 - 2000000
+1072040,Panzer Corps 2,"Mar 19, 2020",Flashback Games,Slitherine Ltd.,15.99,3778,84.46267866596082,Strategy,559,100000 - 200000
+548430,Deep Rock Galactic,"May 13, 2020",Ghost Ship Games,Coffee Stain Publishing,8.99,343000,97.25568513119534,Action,5216,5000000 - 10000000
+1761390,Hatsune Miku: Project DIVA Mega Mix+,"May 26, 2022",SEGA,SEGA,15.75,19033,94.0734513739295,Action,270,500000 - 1000000
+1229490,ULTRAKILL,"Sep 3, 2020","Arsi ""Hakita"" Patala",New Blood Interactive,17.49,169751,97.7119427867877,"Action, Indie, Early Access",3122,5000000 - 10000000
+361420,ASTRONEER,"Feb 5, 2019",System Era Softworks,System Era Softworks,8.99,128956,92.13762833834797,"Adventure, Indie",988,2000000 - 5000000
+1238810,Battlefield™ V,"Oct 22, 2020",DICE,Electronic Arts,49.99,250288,70.85917023588826,Action,6327,10000000 - 20000000
+644930,They Are Billions,"Jun 18, 2019",Numantian Games,Numantian Games,22.49,48765,85.11842509996924,Strategy,2751,2000000 - 5000000
+848450,Subnautica: Below Zero,"May 13, 2021",Unknown Worlds Entertainment,Unknown Worlds Entertainment,7.49,96660,90.63418166770121,"Adventure, Indie",698,2000000 - 5000000
+911400,Assassin's Creed® III Remastered,"Mar 29, 2019",Ubisoft Entertainment,Ubisoft Entertainment,9.99,12584,61.21265098537826,"Action, Adventure",295,1000000 - 2000000
+1142710,Total War: WARHAMMER III,"Feb 16, 2022","CREATIVE ASSEMBLY, Feral Interactive","SEGA, Feral Interactive",14.99,119858,72.70353251347427,"Action, Strategy",16842,2000000 - 5000000
+1210320,Potion Craft: Alchemist Simulator,"Dec 13, 2022",niceplay games,tinyBuild,7.99,37608,92.31014677728143,"Indie, Simulation",941,1000000 - 2000000
+589290,Holdfast: Nations At War,"Mar 5, 2020",Anvil Game Studios,Anvil Game Studios,5.99,25115,89.74716304997014,"Action, Indie, Massively Multiplayer, RPG, Simulation, Strategy",223,500000 - 1000000
+1238000,Mass Effect™: Andromeda Deluxe Edition,"Jun 11, 2020",BioWare,Electronic Arts,3.99,16576,74.46911196911196,"Action, RPG",285,1000000 - 2000000
+744900,Dead Frontier 2,"Jul 15, 2019",Creaky Corpse Ltd,Creaky Corpse Ltd,0.0,26801,70.31080929816052,"Action, Indie, Massively Multiplayer, RPG, Free To Play",647,2000000 - 5000000
+1063730,New World: Aeternum,"Sep 28, 2021",Amazon Games,Amazon Games,59.99,286878,68.59989263728833,"Action, Adventure, Massively Multiplayer, RPG",5583,50000000 - 100000000
+617290,Remnant: From the Ashes,"Aug 19, 2019",Gunfire Games,"Arc Games, THQ Nordic",7.99,52842,84.70724045267023,"Action, Adventure, RPG",429,2000000 - 5000000
+946050,Soda Dungeon 2,"Jul 9, 2020","AN Productions, Poxpower",Armor Games Studios,0.0,5419,94.37165528695331,"Casual, Indie, RPG, Free To Play",249,500000 - 1000000
+1318690,shapez,"Jun 7, 2020",Tobias Springer,"tobspr Games, Doyoyo Games",1.99,13681,96.22834588114904,"Casual, Indie, Simulation, Strategy",328,200000 - 500000
+1338770,Sniper Ghost Warrior Contracts 2,"Jun 4, 2021",CI Games,CI Games,3.99,12581,84.30172482314602,Action,217,1000000 - 2000000
+431240,Golf With Your Friends,"May 19, 2020","Blacklight Interactive, Team17",Team17,1.49,67080,88.11121049493143,"Casual, Indie, Sports",979,2000000 - 5000000
+787480,Phoenix Wright: Ace Attorney Trilogy,"Apr 9, 2019","CAPCOM Co., Ltd.","CAPCOM Co., Ltd.",9.89,37254,97.62710044558973,Adventure,826,1000000 - 2000000
+960990,Beyond: Two Souls,"Jun 18, 2020",Quantic Dream,Quantic Dream,1.99,28027,88.32554322617476,"Action, Adventure",210,1000000 - 2000000
+495420,State of Decay 2: Juggernaut Edition,"Mar 13, 2020",Undead Labs,Xbox Game Studios,5.99,62716,82.91504560239811,"Action, RPG, Simulation",1281,2000000 - 5000000
+1593500,God of War,"Jan 14, 2022","Santa Monica Studio, Jetpack Interactive",PlayStation Publishing LLC,19.99,158017,96.00612592316017,"Action, Adventure, RPG",1380,5000000 - 10000000
+1520470,Soul Dossier,"Mar 29, 2021",GKD GAME,GKD GAME,0.0,26682,82.24645828648526,"Action, Adventure, Massively Multiplayer, RPG, Strategy, Free To Play",656,2000000 - 5000000
+1366540,Dyson Sphere Program,"Jan 20, 2021",Youthcat Studio,Gamirror Games,15.99,85088,97.65771906731854,"Indie, Simulation, Strategy, Early Access",2703,2000000 - 5000000
+1092790,Inscryption,"Oct 19, 2021",Daniel Mullins Games,Devolver Digital,7.99,131890,96.89286526650997,"Adventure, Indie, Strategy",1301,2000000 - 5000000
+1138190,Poker Championship,"Sep 25, 2019",BBstudio Inc.,BBstudio Inc.,0.0,2522,80.49167327517843,"Indie, Massively Multiplayer, Sports, Free To Play",233,200000 - 500000
+1147560,Skul: The Hero Slayer,"Jan 20, 2021",SOUTHPAW GAMES,NEOWIZ,9.99,54901,93.29156117374912,"Action, Indie",1205,1000000 - 2000000
+1488200,Symphony of War: The Nephilim Saga,"Jun 10, 2022",Dancing Dragon Games,indie.io,6.99,12952,94.60315009264978,"Adventure, Indie, RPG, Strategy",409,500000 - 1000000
+881100,Noita,"Oct 15, 2020",Nolla Games,Nolla Games,7.99,78477,95.26230615339526,"Action, Adventure, Indie, RPG, Simulation",2019,2000000 - 5000000
+529340,Victoria 3,"Oct 25, 2022",Paradox Development Studio,Paradox Interactive,14.99,52618,66.59888251168802,"Simulation, Strategy",4609,1000000 - 2000000
+872410,ROMANCE OF THE THREE KINGDOMS XIV,"Jan 15, 2020","KOEI TECMO GAMES CO., LTD.","KOEI TECMO GAMES CO., LTD.",59.99,15111,62.345311362583544,Simulation,1827,1000000 - 2000000
+1407200,World of Tanks,"Apr 28, 2021",Wargaming Group Limited,Wargaming Group Limited,0.0,87836,82.61988250831094,"Action, Massively Multiplayer, Simulation, Free To Play",3869,1000000 - 2000000
+690790,DiRT Rally 2.0,"Feb 25, 2019",Codemasters,"Codemasters, Electronic Arts",13.99,44595,88.31259109765669,"Racing, Simulation, Sports",631,1000000 - 2000000
+1150640,Yu-Gi-Oh! Legacy of the Duelist : Link Evolution,"Mar 24, 2020",Other Ocean Emeryville,KONAMI,9.99,4361,82.18298555377207,Simulation,252,200000 - 500000
+1054490,Wingspan,"Sep 17, 2020",Monster Couch,"Monster Couch, Stonemaier Games, indienova",9.99,10317,94.36851798003295,"Indie, Strategy",569,100000 - 200000
+1066890,Automobilista 2,"Jun 30, 2020",Reiza Studios,Reiza Studios,11.99,11009,92.07920792079209,"Action, Indie, Racing, Simulation, Sports",605,200000 - 500000
+1645820,SurrounDead,"Jun 24, 2022",Zurvivor,PlaySurrounDead,4.79,8200,89.59756097560975,"Action, Adventure, Indie, RPG, Early Access",1870,500000 - 1000000
+1437830,Heroes of the Three Kingdoms 2,"Nov 12, 2020","USERJOY Technology Co.,Ltd.","USERJOY Technology Co.,Ltd., Phoenix Game",0.59,1721,93.72457873329459,"Action, RPG, Simulation, Strategy",203,200000 - 500000
+1201240,BLEACH Brave Souls,"Aug 17, 2020",KLab Inc.,KLab Inc.,0.0,11884,88.6317738135308,"Action, Casual, RPG, Free To Play",1349,1000000 - 2000000
+1273400,Construction Simulator,"Sep 20, 2022",weltenbauer. Software Entwicklung GmbH,astragon Entertainment,13.99,11160,82.37455197132616,"Casual, Simulation",310,500000 - 1000000
+471710,Rec Room,"Sep 2, 2021",Rec Room,Rec Room,0.0,71223,89.51602712606883,"Adventure, Casual, Massively Multiplayer, Free To Play",1510,2000000 - 5000000
+1245620,ELDEN RING,"Feb 24, 2022","FromSoftware, Inc.","FromSoftware, Inc., Bandai Namco Entertainment",38.99,1056677,92.88931243890045,"Action, RPG",29529,20000000 - 50000000
+766570,Russian Fishing 4,"Nov 10, 2021",FishSoft LLC,FishSoft LLC,0.0,73485,53.885827039531875,"Adventure, Casual, Massively Multiplayer, RPG, Simulation, Sports, Free To Play",14950,5000000 - 10000000
+1274570,DEVOUR,"Jan 28, 2021",Straight Back Games,Straight Back Games,4.99,82514,90.96274571587851,Indie,447,2000000 - 5000000
+1335200,Action Taimanin,"Oct 5, 2020",LiLith,Infini-Brain inc.,0.0,18644,83.10984767217336,"Action, Adventure, RPG, Free To Play",993,1000000 - 2000000
+1588010,PGA TOUR 2K23,"Oct 13, 2022",HB Studios,2K,59.99,6199,74.75399257944831,"RPG, Simulation, Sports",430,200000 - 500000
+1158310,Crusader Kings III,"Sep 1, 2020",Paradox Development Studio,Paradox Interactive,14.99,126909,90.03222781678211,"RPG, Simulation, Strategy",14302,2000000 - 5000000
+1248130,Farming Simulator 22,"Nov 21, 2021",Giants Software,Giants Software,19.99,84512,92.42474441499432,Simulation,5419,2000000 - 5000000
+1176470,Terra Invicta,"Sep 26, 2022",Pavonis Interactive,Hooded Horse,25.99,6560,80.13719512195122,"Simulation, Strategy, Early Access",697,200000 - 500000
+1811260,EA SPORTS™ FIFA 23,"Sep 30, 2022","EA Canada, EA Romania",Electronic Arts,0.0,151419,56.92284323631777,"Simulation, Sports",1280,5000000 - 10000000
+493520,GTFO,"Dec 9, 2021",10 Chambers,10 Chambers,13.99,62097,84.3148622316698,Action,307,2000000 - 5000000
+1017180,The Long Drive,"Sep 25, 2019",Genesz,Genesz,3.99,47427,90.1617222257364,"Action, Adventure, Casual, Indie, Simulation, Early Access",377,1000000 - 2000000
+892970,Valheim,"Feb 2, 2021",Iron Gate AB,Coffee Stain Publishing,9.99,499828,94.32264699056475,"Action, Adventure, Indie, RPG, Early Access",14439,10000000 - 20000000
+703080,Planet Zoo,"Nov 5, 2019",Frontier Developments,Frontier Developments,4.49,87849,91.09836196200298,"Casual, Simulation, Strategy",2497,2000000 - 5000000
+859580,Imperator: Rome,"Apr 25, 2019",Paradox Development Studio,Paradox Interactive,11.99,26502,64.74605690136593,"Simulation, Strategy",547,1000000 - 2000000
+1252780,Bloons Monkey City,"Apr 10, 2020",Ninja Kiwi,Ninja Kiwi,0.0,6222,91.22468659594986,"Action, Strategy, Free To Play",217,200000 - 500000
+632470,Disco Elysium - The Final Cut,"Oct 15, 2019",ZA/UM,ZA/UM,3.99,111712,93.10548553423088,RPG,918,2000000 - 5000000
+611790,House Party,"Jul 15, 2022","Eek! Games, LLC","Eek! Games, LLC",11.24,14988,86.21563917800907,"Adventure, Casual, Indie, RPG, Simulation",205,1000000 - 2000000
+1677740,Stumble Guys,"Oct 7, 2021",Scopely,Scopely,0.0,128011,85.02472443774363,"Action, Casual, Indie, Massively Multiplayer, Racing, Free To Play",2928,5000000 - 10000000
+861650,Session: Skate Sim,"Sep 22, 2022",crea-ture Studios Inc.,Nacon,11.99,14399,83.45023959997222,"Indie, Simulation, Sports, Strategy",262,500000 - 1000000
+1343370,Old School RuneScape,"Feb 24, 2021",Jagex Ltd,Jagex Ltd,0.0,18335,83.14153258794656,"Adventure, Massively Multiplayer, RPG, Free To Play",1050,1000000 - 2000000
+268650,From the Depths,"Nov 6, 2020",Brilliant Skies Ltd.,Brilliant Skies Ltd.,9.99,11863,88.99940993003456,"Action, Adventure, Indie, Simulation, Strategy",482,200000 - 500000
