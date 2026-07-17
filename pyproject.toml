@@ -7,6 +7,13 @@ name = "steam_trajectory"
 version = "0.1.0"
 description = "Predicting Steam game engagement trajectories from early signals"
 requires-python = ">=3.10"
+# NOTE ON INSTALLATION ORDER: numpy, scipy, pandas, scikit-learn, xgboost,
+# and matplotlib MUST be installed together via `conda install -c conda-forge`
+# BEFORE running `pip install -e .` — see SETUP.md for the full sequence and
+# why. Installing this package with plain `pip install -e .` on a fresh
+# environment (no prior conda-forge install) can silently mix pip- and
+# conda-built binaries for these packages and cause import-time errors
+# (ABI/OpenMP mismatches) that don't show up until you actually use them.
 dependencies = [
     "pandas",
     "requests",
